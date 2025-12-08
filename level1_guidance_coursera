@@ -1,1 +1,803 @@
+Content Development Guide
+for Vendors
 
+Version 2.8
+Updated 11/10/2025 (changelog)
+
+Table of Contents
+Part 1. Course Design Principles
+Principle #1 - Skill-First Learning
+Principle #2 - Standalone & Stackable Courses
+Principle #3 - The WWHAA Design Footprint
+Part 2. Creating Hands-on Learning Experiences
+Leveraging AI for Hands-on Learning & Assessment
+Developing Hands-on Learning Activities
+Part 3. Content Creation & Production
+Branding Resources for Video Production
+Video Scripts
+Video Visuals
+Video Production
+Readings
+Avoid Use of the Resources Section
+Multiple Choice Quiz Questions
+Technical Assessments
+Changelog
+November 10, 2025 (version 2.8)
+October 24, 2025 (version 2.7)
+October 21, 2025 (version 2.6)
+October 17, 2025 (version 2.5)
+September 30, 2025 (version 2.4)
+September 17, 2025 (version 2.3)
+September 5, 2025 (version 2.2)
+August 27, 2025 (version 2.1)
+August 14, 2025 (version 2.0)
+
+Additional Resources in Other Tabs of this Document
+Generative AI Prompts for Course Development
+How to Turn Short Courses into Long-Form Programs
+Professional Certificate Content Specifications
+How to Create Specializations on the Coursera Platform
+
+—
+Note: Links to articles in Coursera’s Educator Research Center (ERC) require a Coursera login to access.
+
+
+Part 1. Course Design Principles
+Coursera follows three fundamental principles that work together to create modular, skill-aligned learning experiences:
+
+Skill-First Learning: Each course is aligned to specific skills or skill areas
+ ⇨ Content specifications will define the skill focus
+
+
+Standalone & Stackable Courses: Every element works independently and in combination
+ ⇨ No dependencies, unlimited reusability
+
+
+WWHAA Design Footprint: Use this design pattern for every module
+ ⇨ Consistent, effective learning through Why-What-How-Apply-Assess design pattern
+
+These principles work together: You'll create skill-first courses that are standalone and stackable, using the WWHAA footprint for each module. 
+Principle #1 - Skill-First Learning
+Your primary objective is to enable and validate skill mastery. 
+Verified Assessments
+Verified Assessments are rigorous evaluations in the Skill Mastery framework that provide evidence of a learner's ability to perform skills in practice. These assessments fully and accurately measure Skill Expressions by covering their intended scope and evaluating performance at the appropriate Bloom's level (e.g., Apply, Analyze, Evaluate, Create).
+
+Understanding that learners will be working toward passing a Verified Assessment helps you design course content and assessments that align with this standard of skill demonstration, ensuring learners develop the practical competencies needed for authentic workplace application.
+Assessment Design Principles
+Verified Assessments are grounded in authentic, workplace-relevant scenarios and project-based tasks that mirror actual professional challenges. Rather than decontextualized exams, these assessments present learners with complex, realistic situations that require them to demonstrate real-world skill application.
+Skill Expression Coverage
+Each Skill Expression must be assessed at least once within the Verified Assessment framework. Assessment questions are designed flexibly; e.g., a single scenario-based question can evaluate multiple Skill Expressions simultaneously, while individual Skill Expressions may be assessed through multiple questions when comprehensive validation is needed. This approach ensures thorough coverage while maintaining authentic, job-relevant assessment experiences.
+Alignment to Learning Levels
+All assessment items must align to appropriate Bloom's taxonomy levels that match the cognitive complexity of the target Skill Expressions. Assessments focus on higher-order thinking skills (Apply, Analyze, Evaluate, Create) that reflect real workplace demands rather than lower-level recall or comprehension.
+Skill Areas
+Each long course is centered on a Skill Area. A Skill Area is a learner-facing grouping of related skills that support a common phase of work or functional objective. The skills in a Skill Area are commonly taught, practiced, or applied together. Skill Areas support navigation, credential design, and curriculum bundling, without defining structural or prerequisite relationships.
+Skills
+Each module within a short or long course addresses one Skill. Skills are learned competencies — specific knowledge, techniques, or abilities that can be developed through practice, training, or experience.
+Skill Expressions
+Each skill is associated with one or more Skill Expression. A Skill Expression is a discrete, observable, and measurable capability that enables a person to perform a specific task or function. Skill Expressions are the building blocks of our Skill Mastery measurement system. 
+Skill Expressions & Learning Objectives
+When designing your course, Skill Expressions serve as the foundation for your learning objectives. In some cases, a Skill Expression may directly become a learning objective. However, complex Skill Expressions often need to be broken down into multiple, more specific learning objectives that scaffold learners toward mastery. 
+
+For example, a Skill Expression such as “Apply visual design principles to enhance clarity, impact, and narrative in visualizations” might translate into separate learning objectives covering color theory, typography, layout principles, and storytelling techniques. Your role is to determine the appropriate level of granularity that supports effective learning while ensuring all aspects of the Skill Expression are addressed.
+Structuring the Learning Experience
+Here is how the Skill Mastery framework maps onto Coursera platform structures:
+
+Long Course (multiple modules) ⇨ Skill Area
+Short Course (typically one to three modules) ⇨ Skill
+Module ⇨ Skill
+Items ⇨ Skill Expression(s)
+
+Short Courses are designed around a specific Skill and typically consist of one focused module. When there are multiple Skill Expressions or Skills that require more comprehensive treatment, short courses may include additional modules.
+
+Long Courses are designed around a specific Skill Area and consist of multiple modules where each module addresses a skill. 
+Skill Mastery System Definitions
+The table below summarizes the terms used in the Skill Mastery measurement system. 
+
+Taxonomy Level
+Description
+Content Format
+Example
+Verified Assessment
+An assessment that fully and accurately measures Skill Expressions by covering its intended scope and evaluating performance at the appropriate Learning Level (Bloom’s). Completion provides verified evidence of the learner’s ability to perform the skill in practice.
+Assessments are grounded in authentic scenarios/projects. 
+See Verified Skills Assessment Design specs.
+Graded Assignment(s) developed in their own module (1 assessment module: verified skill path)
+Scenario: You are a junior data analyst at University Research Services. The Academic Affairs department has asked you to analyze student performance data from a recent study examining the relationship between study habits, learning environments, and academic outcomes. Your analysis will help inform decisions about course delivery methods and student support services.
+Skill Area
+A Skill Area is learner-facing grouping of related skills that support a common phase of work or functional objective. The skills in a Skill Area are commonly taught, practiced, or applied together.  Skill Areas support navigation, credential design, and curriculum bundling, without defining structural or prerequisite relationships.
+(Long) Course
+Data Analysis CB 1 has seven skill areas, e.g.,:
+Data Acquisition & Preparation,
+Data Transformation & Manipulation,
+Data Visualization & Reporting, etc.
+See full list in Finalized Module Mapping 
+Skill
+Skills are learned competencies - specific knowledge, techniques, or abilities that can be developed through practice, training, or experience.
+Module
+
+(May stand alone as a short course)
+Data Visualization & Reporting skill area has skills: statistical validation, dashboard, data presentation, data storytelling, descriptive analytics (tags)
+Skill Expression
+A discrete, observable, and measurable capability that enables a person to perform a specific task or function. Skill Expression is the building block of our Skill Mastery measurement system.
+Item(s)
+Apply visual design principles to enhance clarity, impact, and narrative in visualizations.
+
+Principle #2 - Standalone & Stackable Courses
+All courses need to provide self-contained, standalone learning experiences that can function independently while also combining seamlessly into larger learning pathways. Each short course is a complete, valuable learning experience on its own.
+Standalone Design Principles
+Every element of your course—from individual items to complete modules—must be self-contained so that it makes sense on its own.
+
+This also allows the content to be reordered, extracted, and used across multiple courses and programs. Because a single module may appear in more than one course or a single course may appear in more than one Specialization or Professional Certificate, authors should frame content so that it makes sense in different program contexts.
+
+Do not reference other parts of the course, sequences of courses, or programs the course may be part of. Do include any necessary context within each item.
+
+Here are some examples:
+
+
+
+❌Don’t Say
+✅ Do Say
+Module Transitions
+“Now that you’ve mastered the basics from Module 1, let’s apply those concepts to…”
+“Data transformation is essential for analysis. Let’s explore how to use SQL functions to…”
+
+
+“Building on our previous discussion about variables…”
+“Variables store data values. Let’s see how to use them in functions…”
+Course/Program References
+“As part of this Data Science Specialization, you’ll use these skills in the capstone project…”
+“These data preprocessing skills are essential for any machine learning project. Let’s practice with a real dataset…”
+
+
+“This builds on the Python Basics course you completed earlier…”
+“Using Python’s data structures, we can efficiently process large datasets…”
+Stackability Across Programs
+“This course is your first step in the Data Analyst Specialization.”
+“These foundational data analysis skills are relevant across a variety of career paths.”
+Sequential References
+“In the previous lesson, we explored how to optimize this code…”
+“Code optimization involves several key strategies…”
+
+
+“In the next video, we’ll dive deeper into this topic…”
+“As a next step, try the advanced features of this tool…”
+
+
+“By now, you should have completed the three exercises from earlier…”
+“Let’s practice with a hands-on exercise that demonstrates these concepts…”
+Assessment References
+“Remember this for the final quiz…”
+“This concept is fundamental to understanding how databases work…”
+
+
+“You’ll need this for your capstone project…”
+“This skill has immediate application in real-world projects…”
+
+
+“This extends what you learned in Assignment 1…”
+“Let’s apply data validation techniques to ensure accuracy…”
+Video/Reading Transitions
+“As I mentioned in the previous video…”
+“An important consideration when designing APIs is…”
+
+
+“The reading you just completed explained…”
+“RESTful APIs follow specific architectural principles. Let’s implement them…”
+
+
+“Before watching the next video, make sure you understand…”
+“Let’s ensure we have a solid grasp of these core concepts…”
+
+Stackable Design Benefits
+When courses are truly standalone, they become infinitely stackable:
+
+Same course can appear in multiple learning paths
+Modules can be reordered or extracted based on learner needs
+Content remains relevant regardless of learning path
+Updates to one course don't break dependencies
+Principle #3 - The WWHAA Design Footprint
+Every instructional module in a Coursera course should follow the WWHAA design footprint, a design framework that structures content delivery through five distinct phases: Why, What, How, Apply, and Assess.
+Modules as the Building Blocks of Learning
+For those who have worked with Coursera in the past, we've simplified our course architecture so that a module acts as the fundamental container of content within a course; there are no longer separate “lesson” containers within a module.
+Old Structure:
+Courses contained Modules
+Modules contained Lessons
+Lessons contained individual learning items
+New Structure:
+Courses contain Modules
+Modules contain all learning items
+No separate "lesson" container will be used
+Modules are the “lessons” within a short course
+
+Each module addresses one Skill, composed of one or more Skill Expressions. In long courses, multiple modules collectively cover all skills within a Skill Area. In short courses, typically one module addresses the targeted Skill Expression(s) directly. When the topic requires more comprehensive treatment, short courses may include additional modules while maintaining their targeted scope.
+Working with Module Specifications & Course Structure
+Your Role: Design effective learning experiences using the WWHAA footprint for each module.
+
+You will receive information that includes:
+Course format (long or short course)
+Module titles
+Occupation group (professional role for target audience)
+Skill to address within each module
+Skill expressions to cover in the learning items
+Skill expression descriptions for more context
+Job tasks (ideas for activities)
+
+Job Tasks: Job tasks should be taken as illustrative examples. The learning designer and subject matter expert (SME) have latitude to identify and develop the most relevant activities to teach the skills. When developing scenarios, examples, or activities, design them for professionals in the specified Occupation Group — this is your target learner audience.
+
+Tool Selection: Unless the skill expression or title explicitly mentions a specific tool, you have latitude to develop a manageable set of tools/projects. Consider all courses in the program together and select the most appropriate and relevant set of tools/languages, keeping in mind industry-standard tools and a manageable number of tools for the learner.
+
+Long Courses (Skill Area-based): You'll implement multiple modules that work together to cover a comprehensive Skill Area. Each module addresses specific Skills within that broader area.
+
+Short Courses (Skill-based): You'll typically implement one focused module, though some assignments may include additional modules when skill complexity requires it.
+Overview of WWHAA Design Footprint
+The WWHAA design footprint applies to each module in the course. 
+
+Phase
+Purpose & Design Guidance
+Recommended Item Types
+Why
+Purpose: Help learners understand why the content matters to their careers and real-world applications.
+
+Design Guidance:
+• Feature human SMEs explaining skill value from industry experience
+• Use real-world examples with learner-centric framing
+• Hook learners through storytelling and job alignment
+ Dialogue 
+• Establish the personal value of the topic to the learner
+
+Video
+• Instructor-led talking head or voice-over slides
+
+Reading
+• Career-relevant information connecting to professional growth
+What
+Purpose: Introduce key ideas, terminology, and foundational concepts. This is the core instructional moment focusing on declarative knowledge.
+
+Design Guidance:
+• Include one or more short video and/or reading
+• Vary item types to avoid repetition (e.g., video + reading + video, instead of video + video + video)
+• Prioritize clarity, pacing, and early value delivery
+ Video 
+• Screencast walkthroughs
+• Instructional videos
+
+Reading
+• With examples, graphics, or code blocks
+
+Ungraded Lab
+• Ungraded for conceptual demonstration
+
+Podcast
+• Optional podcast/audio summary
+How
+Purpose: Bridge theory and practice through guided real-world exploration.
+
+Design Guidance:
+• Scaffold application in tool-based or scenario-driven contexts
+• Support multimodal instruction (visual, auditory, interactive)
+ Video
+• Demonstration or follow-along tutorials
+
+Reading
+• Interactive prompts or walkthroughs
+
+Ungraded Lab 
+• Ungraded step-by-step exploration of code environments
+
+Other possibilities:
+• Podcast
+• Dialogue
+Apply
+Purpose: Enable learners to use skills in real-world scenarios with decreasing support.
+
+Design Guidance:
+• Start with scaffolded items, transition to open-ended practice
+• Emphasize job relevance and real-world transfer
+• Include "do it yourself" moments reflecting workplace tasks
+ Dialogue 
+• Learner works through application in interactive dialogue
+
+Practice Assignment 
+• Instructions for off-platform hands-on activity with AI graded submissions or reflective responses
+
+Reading 
+• Scenario-based readings
+
+Ungraded Lab
+• Ungraded labs or practice environments
+
+App Item (LTI) 
+• e.g., third-party tool
+
+Ungraded Plugin 
+• e.g., interactive
+Assess
+Purpose: Provide feedback and validate achievement of learning objectives.
+
+Design Guidance:
+• Include informal “knowledge checks” with feedback near end of modules
+• Include at least one graded assessment per course (end of last module in course)
+• Align directly to skill expressions and stated learning objectives
+ Practice Assignment
+• Auto-graded quiz questions
+• AI-graded open-ended questions
+• Hands-on activity with AI-graded submission or reflective responses
+
+Graded Assignment
+• Auto-graded quiz questions
+• AI-graded open-ended questions
+• Hands-on activity with AI-graded submission or reflective responses
+
+Programming Assignment 
+• Graded Coursera Lab
+
+Peer Review  
+• Use AI-graded assignment where possible, reserving peer review assignment for justifiable use cases
+
+Item Sequencing: Mix Deliberately to Maintain Engagement
+Item types should be mixed deliberately, avoiding more than two consecutive lectures or readings. Our internal research shows that sequences with varied item types consistently demonstrate higher learner progress and completion rates, while repetitive sequences result in lower engagement and increased drop-off.
+
+Why sequencing matters: Our research reveals that learners drop off at significantly higher rates when encountering repetitive content patterns. Sequences featuring undifferentiated item types (e.g., five consecutive videos or clusters of three videos followed by two readings) create monotonous learning experiences that fail to sustain attention and momentum. Conversely, varied sequences keep learners engaged by alternating between different cognitive demands and modes of interaction, preventing the fatigue that comes from passive consumption of similar content types.
+
+Key principle: No more than two identical item types should appear consecutively. Break up video sequences with readings, practice assessments, or hands-on learning activities to create a dynamic, engaging learning experience that supports sustained progress.
+Introducing a Course
+Purpose: Motivate learner with real-world value
+
+Design Guidance:
+Skip general welcomes (no syllabus reading or course introductory video)
+Open with, for example:
+Dialogue to assess prior knowledge, explore motivations, set learning goals
+"Why" item that establishes real-world value for the topic
+Lead with substance that shows immediate career applicability
+Move directly toward skill acquisition
+
+Recommended Item Types:
+Dialogue - Use to assess prior knowledge or help learner establish personal relevance
+Video - SME-led video connecting the skill to industry application
+Reading - Scenario-based reading that frames the skill in context of learner goals
+Ending a Course
+Purpose: Validate achievement of course skill expressions
+
+Design Guidance:
+Include course graded assessment at the end of the last module
+Exception: If the course involves a more involved hands-on course project with multiple items; then it may warrant its own module
+
+Recommended Item Types: See “Assess” phase above for options
+Required Assessments per Course
+1+ formative activity (ungraded) per module
+1+ knowledge check (ungraded) per module
+1+ summative (graded) assessment per course
+
+Remember, use practice activities and knowledge checks to checkpoint distinct skills in each module; and end the course with a graded assessment.
+Learner Access to Tools
+Learners often require access to software tools or platforms to learn the skills being taught. If a paid license is required, let learners know this in the course description (i.e., on the landing page) and within relevant course items (e.g., items that cover setup of the tool); then you can assume learners will obtain paid access to complete any necessary activities in the course. If open-access tools or free trials are available, let learners know about these options. 
+Accessibility
+Vendors are accountable to being up-to-date on the latest Web Content Accessibility Guidelines (WCAG) and ensuring they’re met when creating content. 
+
+Content Accessibility Checklist (ERC)
+Content Accessibility Policy (ERC)
+Colorado Contrast Checker (website)
+Part 2. Creating Hands-on Learning Experiences
+Leveraging AI for Hands-on Learning & Assessment 
+Coursera's AI learning tools enable you to implement the design principles at scale by creating personalized, hands-on learning experiences that provide immediate feedback on authentic practice opportunities and hands-on graded assessments.
+Coach Dialogue Items
+Purpose: AI-powered Socratic conversations
+When to use: Critical thinking, scenario analysis, concept exploration, reflection
+Benefits: Personalized instruction, immediate feedback, scalable tutoring
+WWHAA integration: Why (motivation), Apply (scenarios, reflection)
+
+Dialogue items are course activities that enable authors to create AI-driven discussions, simulating interactions with a personal tutor. These items lead learners through structured, text-based conversations designed to achieve specific learning objectives.
+
+In a live Dialogue experience, the AI guide (Coursera Coach) helps learners think critically and apply course concepts to real-world situations by asking adaptive, open-ended questions. Dialogues are tailored to each learner, providing personalized feedback that drives progress and deepens understanding.
+
+For more details on using and setting up Coach Dialogues, see these Educator Resource Center articles:
+Create and Publish Dialogue Items (ERC)
+Effectively Using Dialogue Items (ERC)
+AI Grading in Assignments and Peer Reviews
+Purpose: Immediate, rigorous grading of open-ended submissions with personalized feedback
+Where available: Assignment items, Peer Review assignments
+Supported prompts and file types: Rich text and file uploads (video, audio, image, code)
+WWHAA integration: Apply (hands-on practice), Assess (summative skill validation)
+ASSIGNMENT Items with AI Grading
+AI-graded questions use our AI grading system to evaluate text responses and file uploads (e.g., video, audio, code), providing a grade based on the rubrics you set up plus immediate, actionable feedback to help learners review concepts and assess their understanding.
+
+Use cases:
+Activities that involve artifact submissions or reflective responses
+Quiz questions that require open-ended responses
+
+Once you’ve developed the step-by-step instructions and submission prompts for an activity, create an Assignment item with your AI-graded questions and generate the rubrics for each submission prompt using the on-platform rubric generator tool. Review and revise the rubrics as needed before publishing. 
+
+For more information, see this Educator Resource Center article:
+Add AI-Graded Questions to Assignments (ERC)
+PEER REVIEW Items with AI Grading
+Note: As a first option, please use AI-graded assignments, reserving peer review assignments for justifiable use cases with well-designed rubrics. 
+
+In peer review assignments, learners review and grade each other’s work. These are best used for assignments that do not have a single correct answer and require human evaluation, such as essays, design projects, case studies, etc. Peer review assignments facilitate this type of human evaluation at scale. 
+
+The key to an effective peer review assignment is a well-structured rubric. Ask learners to rate individual components of the submission separately. Use simple, concrete language and quantified standards whenever possible.
+
+Design the assignment with clear instructions and details on what learners need to submit. We recommend providing examples of the type of work you’re expecting to see and share the rubric with learners so they know how they will be evaluated (and how they will evaluate others). 
+
+When AI grading is enabled for a peer review assignment, submissions are graded by our AI-grading system, providing a grade based on the rubrics you set up plus immediate, actionable feedback to help learners review concepts and assess their understanding. 
+
+Learners also grade each others’ submissions. So peer review assignments work best when learners receive value in grading and critiquing each other’s work. If assessment of the learning objectives is the main priority (rather than facilitating peer-to-peer sharing of ideas), use a regular Assignment item with AI-grading instead of a Peer Review assignment.
+
+For more information, see this Educator Resource Center article:
+AI Grading in Peer Review Assignments
+
+When designing your first peer review assignment, start with the design template below. Once you’ve mastered the basics; then consider using the import template for authoring the rubric. 
+
+Design template (Google Docs): Peer Review Template | Peer Review Example
+Import template (Google Doc): Peer Review Rubric Import Template
+Import Prompts to Peer Review Assignments Using the Prompt Import Template (ERC)
+Use Shareable Templates to Create Course Content (ERC) 
+
+Further Resources:
+About Peer Review Assignments (ERC) 
+Optimize Peer Review Assignments (ERC) 
+Assessment Generator (for Multiple Choice Quiz Questions)
+Purpose: On-platform AI-assisted multiple choice question creation in Assignment items
+Features: Generate from learning objectives, videos, readings; Create question banks
+WWHAA integration: Assess (knowledge checks, summative quizzes)
+
+Assessment Generator is an AI tool that helps you create multiple choice quiz questions for Assignment items. It generates questions from learning objectives, module titles, videos, and readings. The tool integrates with question banks, allowing you to review, edit, and reuse questions across assignments.
+
+As with all AI-generated content, Coursera considers these outputs a first draft that requires human validation and will benefit from editing or additions by SMEs/learning designers.
+
+For more information, see this Educator Resource Center article:
+Automatically Create Assignment Questions with Assessment Generator
+Developing Hands-on Learning Activities
+The first principle of skill-first learning emphasizes the centrality of engaging learners in authentic, real-world scenarios that allow them to practice and eventually demonstrate mastery of the skills they are learning. Keep these tips in mind when developing hands-on learning activities and assessments. 
+Characteristics of Effective Hands-on Learning
+Active Engagement: Learners actively practice rather than passively consume content
+Skill Development: Learners build competencies through direct experience and application
+Artifact Creation: Learners produce tangible outputs demonstrating their learning
+Problem-Solving Focus: Activities require critical thinking and analytical skills to complete tasks
+Real-World Simulation: Exercises mirror authentic professional scenarios and challenges, leveraging the provided occupation group, career band, and/or job task inputs provided by Coursera
+Safe Failure Environment: Learners can make mistakes and learn through trial and error without consequences
+Learner Responsibility: Activities place ownership on learners to drive their own learning process
+Creative Opportunities: Some exercises allow for open-ended, non-prescriptive outcomes and personal expression
+Confidence Building: Structured exercises help learners develop competence before tackling more complex challenges
+Higher-Order Thinking: Learning objectives target Bloom's Taxonomy levels of apply, analyze, evaluate, and create
+Guiding Questions When Designing Hands-on Activities
+Preparedness: Are learners adequately prepared, or is the difficulty jump too large?
+Authentic Context: Does the exercise begin with a real-world problem that demonstrates clear value to learners?
+Clear Instructions: Can learners easily get started? Are setup materials comprehensive for non-platform exercises?
+Critical Thinking: Does the exercise promote independent problem-solving and decision-making rather than prescriptive step-following?
+Scaffolding: Does the exercise break into manageable steps with examples, hints, and common pitfall guidance?
+Difficulty Levels: Are there optional challenges or varying difficulty options for advanced learners?
+Mitigate Sticking Points: What potential roadblocks exist, and how can they be prevented?
+Feedback & Reflection: Do learners receive clear completion indicators, feedback, and opportunities for reflection?
+Implementing Hands-on Activities
+Practice Assignments: Step-by-step instructions for off-platform activities
+Use AI-graded assignments to evaluate submitted artifacts, code files, or project outputs
+Or use reflective response questions that prompt learners to analyze their process and outcomes
+Structure with clear deliverables that can be automatically assessed for completion and quality
+Coach Dialogues: AI-powered Socratic conversations for deeper learning
+Create dialogues where Coursera Coach guides learners through critical thinking exercises
+Design open-ended sequences that help learners articulate and demonstrate understanding
+Use for case study analysis, ethical decision-making, or complex problem-solving scenarios
+Coach tailors conversations to individual learner responses for personalized instruction
+Ungraded Coursera Labs: Low-stakes experimental learning environments
+Allow for trial-and-error learning with immediate feedback but no formal assessment
+Provide sandbox environments for exploration without grade pressure
+Include interactive simulations, virtual tools, or platform-embedded activities
+Other Technical Assessments: 
+Code blocks for simple programming exercises and syntax practice
+Programming assignments with auto-graded test cases for grading coding projects
+JavaScript plugins for interactive technical demonstrations and simulations
+App items via LTI for integrating external technical tools and platforms
+WWHAA Integration
+How phase: Guided hands-on demonstrations
+Apply phase: Scaffolded or open-ended hands-on practice activities 
+Assess phase: Validation of skills through hands-on projects
+Part 3. Content Creation & Production
+Branding Resources for Video Production
+Access the Brand Foundation Resources Folder for materials and guidelines needed to produce on-brand video content. The folder includes:
+
+Slide Deck
+What It Is: Guidelines for voice/tone, wardrobe, set design, remote shooting, lower-thirds, design files, B-roll usage, and video intros/outros.
+How to Use It: Reference the slide deck for detailed instructions and best practices during video production.
+
+B-roll Folder
+What It Is: Curated approved footage for vignette videos demonstrating desired quality and style.
+How to Use It: Select footage for visual consistency and use as reference for future B-roll production standards.
+
+Photography Folder
+What It Is: Approved stock photos for platform use; e.g., XDP, readings, assignments.
+How to Use It: Use when custom images aren't provided by the branding team.
+
+Additional Stock Footage and Photography Sources
+Pexels, Pixabay, Freepik, Unsplash
+Explore these platforms for free, licensed images and videos that align with the brand identity.
+Use Pexels for open-source images and Pixabay, Freepik, and Unsplash for high-quality stock photos.
+Ensure proper licensing and attribution, if required, before using external assets.
+Video Scripts
+General Video Guidelines
+Keep all videos under 7 minutes in length
+Start with a hook to draw in the learner
+Speak directly to learners ("you") and keep it conversational
+Avoid using jargon and define specialized terms or acronyms
+Ensure metaphors and analogies translate cross-culturally
+Illustrate concepts with real-world applications or examples
+Create each video to stand alone; do not refer to "previous" or "next" videos
+Use reminders like "as a quick recap" instead of cross-references
+Provide clear, concise titles that reflect content without course-specific references
+“Why” Vignette Videos
+Length: 1-3 minutes
+Answer: Why should the learner care about this topic or skill?
+Start with a hook
+Feature real experiences from industry, empathy, advice
+Help learners see themselves in the story
+
+EXAMPLE: Why Storytelling Matters on TikTok
+
+The difference between content that goes viral and content that gets scrolled past? It's all in the story. That’s why mastering storytelling is essential for TikTok success.
+
+People often make the mistake of thinking TikTok is just about dancing or trends, but at its core, TikTok is a storytelling platform. The most successful creators understand one critical fact: you have just 3 seconds to hook your viewer before they scroll away. Those first moments determine everything.
+
+I learned this the hard way when I first started creating content. I spent hours filming high-quality videos with beautiful visuals, only to see them get barely any views. Why? Because I buried the hook too deep in the video. By the time I got to the interesting part, my audience was long gone.
+
+TikTok's algorithm rewards watch time and engagement. When viewers watch your entire video and interact with it, the platform shows it to more people. This is why storytelling matters so much. It's the difference between 100 views and 100,000 views.
+
+Consider a business account that sells handmade jewelry. Instead of just showing product photos, they might start their videos with: "The ring that made a customer cry with joy." That's a story hook that makes you want to know more.
+
+Or consider a cooking account that begins with: "The 3-ingredient pasta that saved my dinner party when a guest announced they were gluten-free." Again, it's a story that pulls you in.
+
+What successful creators understand is that TikTok isn't just a platform. It's a community built around shared stories. Whether your videos are 15 seconds or 10 minutes long, whether you're using video or the newer image carousel format, the principles of good storytelling remain the same: hook fast, create tension, and deliver satisfaction.
+
+In today's crowded TikTok space, storytelling isn't just a bonus; it's absolutely essential. It's how you break through the noise, build a dedicated following, and transform casual viewers into loyal customers or engaged community members. By mastering these techniques, you'll be able to create content that not only stops the scroll but also forges genuine, lasting connections with your audience.
+
+“How” Screencast Videos
+“How” videos focus on showing learners how to do something and typically use one of two approaches.
+Approach #1: Demonstration Tutorial
+Purpose: Show learners what to do, without expectation they'll perform actions simultaneously
+Pacing: Smooth, continuous flow without deliberate pauses (edit out excess pauses)
+Language: "I'll show you how to..." approach
+Duration: Typically 3-5 minutes
+Focus: Clarity and completeness of demonstration
+Approach #2: Follow-Along Tutorial
+Purpose: Guide learners to perform tasks simultaneously while watching
+Pacing: Deliberate, with natural pauses and transition cues for learners (e.g., “Pause the video and try…”) 
+Language: "Now you'll..." approach with clear action prompts
+Duration: Typically 5-7 minutes for the same content as a demonstration
+Focus: Step-by-step guidance with pause points clearly indicated
+Recording Screencast Videos
+Adjust screen resolution and zoom in so learners can clearly see what's being done
+Disable notifications that might pop up during recording
+Ensure the desktop is clean and extraneous browser windows or bookmark bars are closed
+Ensure that copyrighted images or material featuring brand names (unless specific to the course) are not visible
+Avoid putting vital content in the lower fifth of the screen so it won't interfere with subtitles
+Verbally explain all actions you are taking to ensure accessibility and help learners follow along
+For guidelines on how to set up your recording environment, see: Home Recording Setup Guide for High-Quality Audio Production
+“What” Instructional Videos
+Although we’re moving away from reliance on traditional instructional videos in our design footprint, there may be places where didactic videos make sense, such as to introduce key ideas or explain concepts. Here’s a template for creating these types of instructional videos.
+
+Hook
+Aim for at least 3-5 sentences, or up to two paragraphs where appropriate. 
+See “How to Write Engaging Opening Hooks” for best practices and generative AI prompts to help with hook development. 
+
+Example
+Think of traditional education as a conveyor belt, moving at a fixed pace regardless of individual needs. Some learners fall off, unable to keep up, while others are eager to race ahead. Now, imagine learning as a choose-your-own-adventure book, where learners turn the page when they’re ready. That's mastery learning on Coursera.
+Introduction
+Introduce the topic of the video and what will be learned.
+When discussing what will be learned, you might highlight how you’ll go about teaching it or what case studies or tools might be used.
+Keep it short, concise and engaging.
+This is effectively an extension of the hook above and is often intermingled with the hook.
+
+Example
+In this video, we'll explore how Coursera's mastery learning approach offers a way to help every learner succeed. We’ll do this by explaining what mastery learning is and showing you how it’s built into Coursera learning experiences. 
+Learning Objective(s)
+Cover no more than 1-3 tightly connected objectives per video.
+If you’re having trouble keeping a video below 7 minutes, focus on a single objective. 
+Start each learning objective with a specific, measurable Bloom’s action verb. 
+
+Example
+By the end of this video, you will be able to: 
+Explain how Coursera courses draw from mastery learning principles.
+Apply mastery learning principles to course design and development. 
+Body
+Break down the topic into 2-4 key points or subtopics that support the video’s learning objective(s).
+Organize the content in a clear, sequential manner that builds understanding step-by-step.
+For each main point, offer concrete examples, case studies, or demonstrations to illustrate concepts.
+Provide enough detail to thoroughly explain concepts, but avoid unnecessary tangents.
+Include smooth transitions between main points to maintain flow and coherence.
+Use rhetorical questions, analogies, or in-video questions to keep viewers interested and actively thinking.
+Ensure each part of the body directly supports the video’s stated learning objective(s).
+
+Example
+[Key concept or point] The main point behind mastery learning is to master a topic before proceeding to the next topic. This model embraces failure as a form of feedback for learning. Rather than “punish” a learner for failing to understand something, the learner is given the opportunity to try again. [Illustration of concept with concrete examples] Here’s a visualization of how mastery learning can function on Coursera. …
+Summary
+Highlight key ideas or takeaways. 
+Draw out the implications of the ideas taught.
+Do not simply restate the learning objective(s).
+Keep this short, concise and useful.
+
+Example
+In this video, we examined Coursera’s approach to mastery learning. Mastery learning:
+Promotes a deeper understanding of the subject matter by ensuring learners master each concept before moving forward. 
+Encourages a positive learning environment where failure is seen as a part of the learning process, not a setback. 
+Provides personalized learning experiences by providing informative feedback based on individual performance on formative activities. 
+Call to Action
+Outline the next steps learners should take to apply what they’ve learned.
+Start sentences with strong imperative verbs (“Start…”, “Try…”).
+Keep this short, concise and powerful (one paragraph of 3-5 sentences).
+Be relevant to the video content and learning goals.
+Create a sense of urgency or excitement.
+Be specific and actionable.
+See “How to Write Effective Calls to Action” for best practices and generative AI prompts to help with hook development. 
+
+Example
+Now that you’ve learned about mastery learning, you’re ready to apply it to your course design. Start by developing a course outline with both formative and summative assessments. Then consider what kind of feedback learners may need on the formative assessments to successfully demonstrate mastery on the summative assessments.
+
+Script Storyboard Template
+Video Script Template (Google Doc)
+Video Script Example (Google Doc)
+Use Shareable Templates to Create Course Content (ERC) 
+Further Resources
+How to Write Engaging Opening Hooks (Google Doc)
+How to Write Effective Calls to Action (Google Doc)
+Coursera Best Practices for Creating Engaging and Effective Instructional Videos (ERC)
+About the Different Styles of Instructional Videos and When to Use Them (ERC)
+Tips and Examples for Creating Module Introductions and Welcome Videos (ERC)
+Video Visuals
+Minimize Text and Bullets
+Remove repetitive slide titles (since these are unnecessary and simply add words)
+Avoid nested sub-bullets (since this gets busy fast and indicates too much text)
+Use a clean new slide for each new topic (since this helps cue the learner’s attention without overburdening them with a build-up prior text)
+
+If a slide has more than 5-7 words on it, look for opportunities to condense it.
+Learning objective slides will be longer (but don’t let text encroach on the lower fifth)  
+Quotes that use (short) text blocks will be longer (but use sparingly) 
+Using Text in Visuals
+Text shown on screen should always be verbalized in the presentation. But everything in the verbal presentation does not need to be shown on screen. 
+Focus on showing key words on screen (rather than sentences).
+Don’t let the on-screen text mimic a teleprompter (it’s for the audience not the presenter).
+Why Images Are Better Than Text
+Images are always better than text. Why? We have two channels for processing information: linguistic and visual. The linguistic channel includes both written and spoken language, so presenting too much of both at the same time clogs up this channel, increasing the cognitive load. But we can process spoken words (linguistic channel) and visual images (visual channel) without that problem. This is why a good image/graphic that complements the verbal presentation is more effective than on-screen text. So, when using text, use selective text as if the text were images (something learners can “view” without needing to “read” per se). 
+Visuals Best Practices
+Use compelling visuals that complement the verbal explanation and support key concepts 
+Minimize text/bullet points and maximize visual imagery
+Limit text where you can
+Introduce one bullet point at a time
+Incorporate visual variety to keep learners engaged
+Beware complex graphics; cue the learner to the portion of graphics where you want them to place their attention (e.g., magnification, highlighting)
+Avoid putting vital content in the lower fifth of the screen so it won't interfere with subtitles
+Keep slides in motion (don’t spend too much time on a single slide)
+Follow WCAG guidelines for accessibility regarding color contrast, information display, etc.
+Before/After Examples
+Here are examples of slides with the originals on the left and the improved slides on the right.
+
+
+
+Designing for Mobile Devices
+Make sure slide text is at least 20-pt font, so your slides remain readable for learners on mobile devices
+Use a widescreen aspect ratio (16:9) for your slides
+
+Further Resources
+Guidelines for Using Text, Images, and Slides in Videos (ERC)
+Coursera Best Practices for Creating Engaging and Effective Instructional Videos (ERC)
+Video Production
+Characteristics of Quality Videos
+Instructor Presence. The instructor presents with energy and genuine interest in the subject matter. Their approach is conversational, ensuring the delivery is animated and engaging.
+
+Lighting. Lighting is appropriate so that the instructor is well-lit. Three-point lighting is commonly used to achieve this, ensuring that the subject is visible without excessive shadows.
+
+Audio Quality. A quality microphone is used. Audio background noise and echo is omitted to ensure clear speech. 
+
+Intro/Outro. Include partner (or Coursera for Coursera-owned) bumpers with copyright information at the beginning and end of the first and last video of the course. During this time, music should play while the bumpers are on screen.
+
+Transitions. Transitions between segments in the video must be seamless without causing abrupt or jarring changes in the visual experience.
+Readings
+Reading items typically consist of original work written specifically for the course, following these best practices:
+Keep readings short, concise, and focused just like videos
+Use headings and subheadings to visually chunk ideas into sections
+Use visuals/graphics to help learners conceptualize complex concepts
+Use screenshots to illustrate instructions for software applications
+Refer to and fully explain charts, tables, and graphics in the text
+Keep the language conversational and accessible
+Address the learner directly (“you”)
+Define technical terms and spell out acronyms
+State the learning objective at the beginning
+Summarize the key takeaways at the end
+Provide alt text for all images and complex diagrams
+Follow WCAG guidelines for accessibility
+Embedding Articles or Resources in Readings
+You can also embed articles/resources into readings for download assuming you have the rights to do so while following these guidelines:
+Any content that belongs to others requires legal permissions to use and distribute for profit
+Ensure downloads are provided in a format that all learners can access (e.g., PDF)
+Linking to Open-Access Articles or Resources in Readings
+Readings may also include links to open-access articles/resources, following these guidelines: 
+External content should be reserved for optional resources for further exploration and should not be part of the primary learning path (i.e., learners won’t be tested on them)
+When linking to an external article, ensure it can be accessed by learners around the world without needing to cross through a paywall
+Include a brief introduction to provide context for external links so learners know where the link is taking them and why (i.e., don’t simply include a hyperlink in an otherwise blank reading item)
+Ensure external links are reputable, credible, and accurate, and represent content the partner would feel comfortable sharing with learners.
+Ensure external links are up to date, keeping in mind that links to external websites may change or break
+Avoid external content that contains ads or elements that distract from the main content you want learners to read
+Always use links rather than iframes, unless you have permissions to embed the content
+To aid screen readers, hyperlink specific titles for links instead of using the full URL
+Avoid Use of the Resources Section
+What is the Resources Section of a Course?
+The Resources section in Coursera courses is designed for supplemental materials that learners can access from the course home. These materials are not part of the main learning path and are not required to complete the course. Examples might include:
+
+A glossary of important terms
+Study tips for success
+Installation instructions for required software
+Reference texts, formulas, or diagrams (e.g., a periodic table)
+
+Learners access these materials from the Resources page of the course, and instructors can choose whether resources are visible there or only accessible via direct links.
+
+
+Guidance for Course Development
+✅ Do upload files directly into a learning item in the main course material.
+❌ Don’t add or link to files in the Resources section.
+
+To facilitate modularity when building new content, do not add files to the Resources section. Instead, always place files directly into a learning item within the main learning path (e.g., a reading, video, or assignment).
+
+This ensures that:
+
+All materials remain accessible to learners when content is reused in new courses or skills paths.
+Files are tied to the appropriate point in the learner journey, rather than living outside the course structure.
+Hyperlinks will not break if a course is cloned or retrofitted into a new program.
+
+If you want to provide supplemental reference material, create a dedicated learning item (e.g., a reading) within the course itself (e.g., end of module). This keeps the materials organized within the learning path itself and ensures learners always have access, regardless of where the course is delivered.
+Multiple Choice Quiz Questions
+You can set up both practice and graded quizzes in an Assignment item. Tailor feedback for each answer option. The feedback provided on practice quizzes should differ from the feedback provided on graded quizzes, as described below. 
+Practice Assignment (Quiz) Feedback
+On practice quizzes, provide option-level feedback that explains why each choice is correct or incorrect and let learners know what the correct answer should be. Explaining why each choice is correct or incorrect on practice (formative) quizzes heads off misconceptions and reinforces the development of accurate mental models. Plus, we’ve found from our own research that adding meaningful practice leads to a larger percentage of learners progressing through the course, helping both with understanding and motivation. 
+
+
+Graded Assignment (Quiz) Feedback
+On graded quizzes, provide option-level feedback that refers learners to relevant review items (e.g., video titles or topics) rather than revealing the answers. Mastery learning requires learners to pass each graded quiz to complete the course. Learners may retake a graded quiz until they succeed. So, we want to provide feedback to guide their studying in between attempts. Pointing learners to appropriate review items will help them focus their studying before retaking the quiz.
+
+
+Question Writing Tips
+Avoid negative phrasings
+Avoid ambiguous wordings
+Make use of different question types (e.g., single correct, multiple correct)
+Multiple choice options should be authentic and plausible
+Draw from actual concepts learners have encountered
+Repeat key terms from the question in the answers (rather than using demonstrative pronouns such as “this” or “that”) for clarity
+Question Variations
+Question variations are important on graded assignments (quizzes) to prevent learners from encountering the same questions on retakes. This approach elevates the rigor of assignments by ensuring learners genuinely understand the material instead of memorizing answers to specific questions.
+
+For courses seeking American Council on Education (ACE) credit recommendation, each graded question must have three unique variations. For example, a graded assignment with 10 quiz questions would require a total of 30 questions (3 variation per question stem). 
+
+Entry-level Professional Certificates undergoing ACE Credit Recommendation must meet these standards to ensure rigor and academic integrity on graded multiple-choice quizzes (but the requirements may be met after launch):
+
+3 variations per question
+Attempt rate = 3 attempts/day
+Submissions per attempt = 1
+Time limit = 5 minutes/question
+
+Guidelines for Writing Effective Question Variations
+
+Same Learning Objective, Unique Questions. Each variation should assess the same learning objective, using questions with a different approach, scenario, or data point, while maintaining the core focus.
+
+Diverse Question Types. Use a mix of question types (e.g., multiple-choice single correct, multiple correct, true/false) to evaluate the same learning objective from different angles.
+
+Beyond Rephrasing. Go beyond minor wording changes. Consider alternative ways to approach the learning objective, presenting it in a new context or requiring a different type of thinking.
+Assignment (Quiz) Import Template
+You can use this template to author questions for assignment items, including writing question prompts and configuring answer options. Then when you're ready, you can import questions from the template file to an assignment item on Coursera.
+Assignment Import Template (Google Doc)
+Import Questions Using the Assignment Import Template (ERC)
+Use Shareable Templates to Create Course Content (ERC) 
+Further Resources 
+Optimize Quizzes (ERC) 
+Supported Question Types (ERC) 
+Providing Quiz Feedback (Google Doc)
+Technical Assessments
+Whether you’re building an introductory course for beginners or teaching more complex concepts to advanced learners, Coursera’s technical assessment offerings can help you serve a wide range of audience types in popular technical topics, such as computer science, data science, engineering, and information technology.
+
+About Technical Assessments on Coursera (ERC) 
+Technical Assessment Types
+Code blocks — Create and Manage Code Blocks (ERC)
+Programming Assignments — About Programming Assignments (ERC)
+Ungraded labs — About Coursera Labs (ERC)
+Plugins — About Plugins (ERC)
+App items via Learning Tools Interoperability (LTI) — About App Items (ERC)
+Learn More in Coursera Classroom
+Coursera Technical Assessments MicroCourse (Coursera Classroom)
+Further Resources
+Drivers of Success in Coursera Labs (PDF)
+Drivers of Success in Guided Projects (PDF)
