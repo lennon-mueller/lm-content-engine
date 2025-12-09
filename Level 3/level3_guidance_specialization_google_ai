@@ -42,6 +42,13 @@ Designed as a cohesive path (e.g., “Google AI Specialization” or “Google C
 It does not automatically apply to:
 Single Google AI courses outside this specialization.
 Non-Google AI specializations that merely mention Google tools.
+
+Character-length expectations (text characters, including spaces)
+All courses in the specialization should use consistent character ranges aligned with Level 1 and Level 2 word-count guidance:
+• “Why” vignette scripts: ~1,200–2,700 characters total; keep body sections within ~1,500–2,400 characters.
+• “How” screencast narration: ~1,800–5,400 characters overall, with demonstration tutorials around 1,800–3,600 characters and follow-along tutorials around 2,400–5,400 characters.
+• “What” readings: ~4,800–9,000 characters for the main instructional body (excluding reviewer-only sections).
+Use these bounds to keep course items concise and consistent across the specialization while leaving room for partner-specific nuance.
 1. Specialization Purpose & Target Audience
 1.1 Program Purpose
 The Google AI Specialization should enable learners to:
