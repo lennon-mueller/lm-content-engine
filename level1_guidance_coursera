@@ -755,28 +755,253 @@ Final Self-Check
  Wrap-up reinforces the takeaway and encourages continued learning.
  Script is standalone and makes sense even if reused in another course/program context.
 
-“How” Screencast Videos
-“How” videos focus on showing learners how to do something and typically use one of two approaches.
-Approach #1: Demonstration Tutorial
-Purpose: Show learners what to do, without expectation they'll perform actions simultaneously
-Pacing: Smooth, continuous flow without deliberate pauses (edit out excess pauses)
-Language: "I'll show you how to..." approach
-Duration: Typically 3-5 minutes
-Focus: Clarity and completeness of demonstration
-Approach #2: Follow-Along Tutorial
-Purpose: Guide learners to perform tasks simultaneously while watching
-Pacing: Deliberate, with natural pauses and transition cues for learners (e.g., “Pause the video and try…”) 
-Language: "Now you'll..." approach with clear action prompts
-Duration: Typically 5-7 minutes for the same content as a demonstration
-Focus: Step-by-step guidance with pause points clearly indicated
-Recording Screencast Videos
-Adjust screen resolution and zoom in so learners can clearly see what's being done
-Disable notifications that might pop up during recording
-Ensure the desktop is clean and extraneous browser windows or bookmark bars are closed
-Ensure that copyrighted images or material featuring brand names (unless specific to the course) are not visible
-Avoid putting vital content in the lower fifth of the screen so it won't interfere with subtitles
-Verbally explain all actions you are taking to ensure accessibility and help learners follow along
-For guidelines on how to set up your recording environment, see: Home Recording Setup Guide for High-Quality Audio Production
+“How” Screencast Videos – Level 1 Content Specifications
+1. Purpose and Role in WWHAA
+“How” screencast videos support the How phase of the WWHAA design footprint. They focus on procedural knowledge—showing learners how to do something in a concrete tool, environment, or workflow.
+These screencasts:
+Demonstrate step-by-step processes learners need to perform.
+Bridge the gap between conceptual understanding (“What”) and hands-on practice (“Apply”).
+Model good practices and techniques in authentic tools and interfaces.
+All “How” screencasts must comply with the specifications below in addition to all other Level 1 requirements (Skill-First, Standalone & Stackable, WWHAA, accessibility, etc.).
+2. Definition and Screencast Types
+A “How” screencast is a screen-capture-based instructional video (no on-camera presenter) that demonstrates a workflow, process, or technique in a specific tool or environment.
+There are two supported types of “How” screencasts:
+2.1 Demonstration Tutorial
+Purpose:
+Show learners what to do while they watch, without expecting them to perform actions simultaneously.
+Pacing:
+Smooth, continuous flow; minimal deliberate pauses for learner activity.
+Language:
+“I’ll show you how to…” style, describing actions the instructor performs on screen.
+Typical duration:
+~3–5 minutes.
+Focus:
+Clarity and completeness of the demonstration; learners can later replicate steps in their own time.
+2.2 Follow-Along Tutorial
+Purpose:
+Guide learners to perform tasks as they watch, step by step.
+Pacing:
+Deliberate, with clear transitions and explicit pause points for learners to complete actions.
+Language:
+“Now you’ll…” or “Now you…” style, with direct instructions and prompts.
+Typical duration:
+~5–7 minutes for the same content that would fit into a shorter demonstration.
+Focus:
+Detailed, step-by-step guidance with explicit practice intervals built into the video.
+Each “How” screencast must be clearly designed as either:
+a Demonstration Tutorial, or
+a Follow-Along Tutorial,
+and must follow the requirements associated with that type.
+3. Length, Scope, and Splitting Content
+3.1 Script Length
+Typical script length (spoken narration only):
+Minimum: ~300 words
+Maximum: ~900 words
+As a guideline:
+Demonstration tutorials usually fall around 300–600 words.
+Follow-along tutorials usually fall around 400–900 words, due to additional instructions and pause cues.
+3.2 Video Duration
+Demonstration: ~3–5 minutes.
+Follow-along: ~5–7 minutes.
+3.3 Scope and Splitting
+If the process or workflow is too extensive for a single 3–7 minute screencast:
+Authors should split the content into multiple screencasts, typically 2–5 minutes each.
+Each screencast should:
+Have a clear, focused goal (e.g., “Connecting to the data source,” “Configuring basic settings,” “Publishing the report”).
+Include its own short hook and wrap-up, even if part of a mini-series.
+When planning, outline the workflow and identify natural breakpoints where a learner’s sense of completion or milestone is clear.
+4. Critical Accessibility Requirements
+“How” screencasts must be fully usable for learners who are relying on audio, captions, and assistive technologies. This requires explicit narration of all on-screen actions.
+4.1 Verbalization of On-Screen Actions
+For every screencast:
+Every on-screen action must be verbalized in the spoken script, including:
+Cursor movements that matter to the task (e.g., “I’m moving to the Home tab in the ribbon.”).
+All clicks and selections (e.g., “I’ll click the ‘Run’ button in the top-right corner.”).
+Typing actions (e.g., “Now I’m typing SELECT * FROM sales into the query editor.”).
+Visual changes that affect understanding (e.g., “A new panel appears on the right showing our filter options.”).
+No action should appear in the planned visual sequence (screen recording) without a corresponding description in the spoken script.
+This ensures that learners who cannot see the screen can still follow the logic and structure of the task.
+4.2 Verbalization of Pause Points (Follow-Along Tutorials)
+For follow-along tutorials, every planned pause for learner action must be clearly verbalized, including:
+When to pause:
+“Pause the video now…”
+What to do:
+“…and create a new worksheet named ‘Summary’.”
+How they’ll know they’ve completed the task correctly:
+“You’ll know you’re ready to continue when you see the ‘Summary’ sheet listed alongside your other tabs.”
+When to resume:
+“When you’re done, resume the video to continue.”
+Pause points should be used:
+For extended actions that take more than a few seconds.
+For practice segments where learners apply the skill in their own context (e.g., in their own document, dataset, or environment).
+Quick actions that take 1–2 seconds (e.g., a single button click) typically do not require a formal pause directive, as learners can follow along in real time.
+5. Script and Content Structure
+All “How” screencasts must follow a clear three-part structure: Hook, Body, and Wrap-up.
+5.1 Hook (1–2 Sentences)
+Opening phrase requirement:
+Always begin the spoken script with “In this video…”
+(Do not use “Today” as an opener.)
+Purpose:
+Briefly explain why this specific procedure or workflow matters.
+Set expectations for what learners will be able to do by the end.
+Characteristics:
+1–2 short, punchy sentences.
+Simple, accessible language (similar expectations as for “Why” vignettes, though not strictly under 5th-grade reading level overall).
+Directly address the learner: “In this video, you’ll learn how to…”
+5.2 Body (Step-by-Step Demonstration)
+The body of the screencast should:
+Present a logical, sequential set of steps.
+For each step:
+Explain what the step accomplishes and why it’s needed.
+Describe exactly what appears on screen and what the instructor is doing (for demonstration types).
+For follow-along:
+Provide clear instructions for what the learner should do.
+Use pause points for extended actions (see Section 4.2).
+For Demonstration Tutorials:
+Focus on:
+Showing the full process with clear narration.
+Maintaining a smooth pace without frequent pauses.
+Suitable for:
+Introducing a workflow that learners will revisit.
+Complex or multi-stage tasks where learners first need an overview.
+For Follow-Along Tutorials:
+Focus on:
+Guiding learners through the workflow as they do it.
+Incorporating planned opportunities for practice.
+Require:
+More explicit instructions and cue phrases (“Now you’ll…”).
+Clear guidance at each pause point.
+5.3 Wrap-up (1–2 Lines)
+Reinforce the key takeaway:
+What the learner can now do.
+How this connects to their broader goals or to the next course component.
+Encourage continued learning:
+“Next, you’ll use this setup in a hands-on assignment to analyze your own data.”
+Keep it brief and focused on outcomes and next steps.
+6. Step Design and Pause Point Guidance
+6.1 Quick vs. Extended Actions
+To avoid overwhelming learners:
+Quick actions (1–2 seconds):
+Example: clicking a tab, opening a menu, toggling a checkbox.
+Learners can follow in real time if desired.
+No formal “pause now” directive needed.
+Extended actions (more than a few seconds):
+Example: writing a paragraph of code, formatting multiple elements, configuring a complex dialog.
+Should be paired with an explicit pause directive and clear instructions.
+6.2 Follow-Along Tutorials: Practice Segments
+In follow-along tutorials:
+Use practice segments where learners apply the skill in their own context (e.g., their own project or document).
+Each practice segment must:
+Provide clear instructions on what to do.
+Indicate how learners can verify success.
+Remind learners to resume the video once ready.
+7. Visual and Technical Requirements
+“How” screencasts are screen-based: the instructor does not appear on camera. Visual clarity and accessibility are critical.
+7.1 Screen Capture and Layout
+Resolution:
+1920×1080 (16:9 aspect ratio) is recommended for most screencasts.
+Cursor:
+Use a clearly visible cursor.
+Clicks should be easy to see (e.g., subtle highlight or ripple), especially when interacting with small UI elements.
+Text size and readability:
+On-screen text (e.g., tool UI, labels, code, annotations) should be large enough to read on smaller devices:
+Aim for a minimum of 16pt equivalent for body text in slides or overlays.
+Avoid clutter; focus the learner’s view on relevant areas (use zoom when needed).
+Zoom and focus:
+Use zoom or tight cropping for small or dense UI components.
+Avoid rapid camera moves or flashing changes.
+7.2 Visual Accessibility
+Color contrast:
+Ensure a minimum color contrast ratio of 4.5:1 for text or important UI elements presented as part of instruction.
+Use of color:
+Do not rely on color alone to convey meaning (e.g., “click the red button”).
+Supplement with shapes, labels, or annotations as needed.
+Captions and transcripts:
+All screencasts must support accurate captions and transcripts, aligned with the spoken script and including narration of visual changes.
+7.3 Code Visualization (When Applicable)
+When demonstrating code:
+Use a monospaced font with adequate size and line spacing for readability.
+Use syntax highlighting that:
+Distinguishes key elements (functions, strings, keywords, comments).
+Maintains adequate contrast and accessibility.
+Consider showing:
+Code and its output side-by-side where helpful (e.g., split screen).
+Narration should:
+Verbally identify and explain important parts of the code.
+Clearly describe what is being typed or changed.
+8. Coursera Brand Voice and Tone
+“How” screencasts must reflect the same brand voice and tone as other course elements.
+8.1 Voice (Who We Are)
+Magnetic
+Use active voice and confident language.
+Foster curiosity by pointing out interesting results or patterns learners will see on screen.
+Keep pacing dynamic but not rushed.
+Uplifting
+Emphasize learners’ progress as they complete steps.
+Connect small technical wins to larger goals (e.g., “This may seem small, but it’s the foundation of a reliable pipeline.”).
+Trusted
+Provide accurate, precise instructions.
+Avoid jargon where possible; explain necessary terms clearly.
+Use realistic examples; do not exaggerate capabilities or outcomes.
+Inventive
+When appropriate, show innovative uses of tools or workflows.
+Highlight partnerships or relevant research visually and verbally where it genuinely supports learning.
+8.2 Tone (How We Communicate)
+Clear and Confident
+Answer core viewer questions:
+“What am I doing?”
+“Why am I doing it this way?”
+Connect each step to a desired result or outcome.
+Conversational
+Use natural, supportive language (“You’ll notice…”, “If you make a mistake, you can…”).
+Be concise and avoid unnecessary tangents.
+Empathetic and Motivating
+Acknowledge that learners might make errors or need to replay steps.
+Avoid negative or shaming language.
+Encourage learners (“If this feels unfamiliar now, that’s normal. With a few repetitions, these steps will start to feel natural.”).
+9. What to Avoid
+To maintain quality and consistency, authors of “How” screencasts must avoid:
+Inventing or exaggerating facts, statistics, or examples about tools or outcomes.
+Including unverified claims or generic, vague success stories.
+Using overused phrases like “let’s dive in” or “deep dive” in introductions.
+Overcomplicating the message with cluttered visuals or too many on-screen elements at once.
+Rapid screen transitions without explanation or context.
+Showing cursor movements or UI actions without narrating them.
+Referring to an on-screen presenter (the instructor is not visible).
+Starting with “Today…” instead of “In this video…”.
+Designing follow-along tutorials that rush through steps without adequate time or clear pause instructions.
+10. Authoring Process and Checklist
+When designing a “How” screencast, authors should follow this process:
+Define the Goal and Type
+Identify the specific skill or task learners will complete by the end.
+Decide whether the screencast is a Demonstration or Follow-Along tutorial.
+Scope the Content
+Outline the steps involved.
+Confirm whether the workflow fits comfortably into a 3–7 minute video.
+If not, plan to split into multiple shorter screencasts.
+Draft the Script
+Write a brief hook that begins with “In this video…” and states the goal in simple terms.
+Script each step:
+What is happening on screen.
+What the narrator says.
+Why the step matters.
+Include explicit pause instructions for follow-along tutorials where needed.
+Plan Visuals and Technical Requirements
+Choose the tool/environment to show.
+Identify areas that will require zooming or special highlighting.
+Ensure fonts, colors, and layout meet accessibility and readability standards.
+Review for Accessibility and Brand Alignment
+Confirm that every on-screen action is verbalized.
+Check that instructions are clear, inclusive, and non-jargon heavy.
+Verify brand voice and tone (Magnetic, Uplifting, Trusted, Inventive).
+Final Self-Check
+ Screencast type (Demonstration or Follow-Along) is explicit and consistent.
+ Length and scope are appropriate (3–7 minutes; ~300–900 words).
+ Hook starts with “In this video…” and clearly states the skill/task.
+ All important actions and visual changes are described in narration.
+ Follow-along tutorials include clear pause instructions for extended actions.
+ Visual and technical setup meets accessibility and readability requirements.
+ Screencast is standalone and reusable in multiple course contexts.
 “What” Instructional Videos
 Although we’re moving away from reliance on traditional instructional videos in our design footprint, there may be places where didactic videos make sense, such as to introduce key ideas or explain concepts. Here’s a template for creating these types of instructional videos.
 
