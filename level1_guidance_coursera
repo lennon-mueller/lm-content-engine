@@ -702,6 +702,229 @@ State the learning objective at the beginning
 Summarize the key takeaways at the end
 Provide alt text for all images and complex diagrams
 Follow WCAG guidelines for accessibility
+“What” Readings – Level 1 Content Specifications
+1. Purpose and Role in WWHAA
+“What” readings support the What phase of the WWHAA design footprint. They provide the core declarative knowledge learners need to understand what a skill is, why it matters, and how it connects to the module’s learning objectives.
+These readings:
+Focus on facts, concepts, terminology, and processes.
+Lay the conceptual foundation for the hands-on work learners will do in the How, Apply, and Assess phases.
+Are written to be standalone items that can be reused across courses and programs.
+All “What” readings must comply with the specifications below in addition to all other Level 1 requirements (Skill-first, Standalone & Stackable, WWHAA, accessibility, etc.).
+2. Definition and Scope
+A “What” reading is a course item that:
+Explains core concepts and definitions aligned to a specific Skill and its Skill Expressions.
+Emphasizes declarative knowledge (what something is, how it works, what its components are).
+Uses didactic exposition supported by examples, diagrams, and/or simple process descriptions.
+Prepares learners for guided practice (How), independent application (Apply), and assessment (Assess).
+“What” readings are not:
+Step-by-step “click this button” walkthroughs (those belong in How/Apply).
+Opinion pieces, thought leadership, or marketing content.
+Primary assessment vehicles (though they may include simple reflection prompts).
+3. Length Requirements
+All “What” readings must meet the following word count constraints:
+Required length:
+Minimum: 800 words
+Maximum: 1,500 words
+The word count applies to the main reading content only (from title through Conclusion).
+The KEY STATS AND SOURCES FOR REVIEWER’S USE section (see Section 7) is not included in this word count.
+If a single reading would exceed 1,500 words, authors must:
+Split the content into two or more readings, each adhering to the 800–1,500 word requirement.
+Ensure each reading is coherent and standalone, with its own Introduction and Conclusion.
+4. Structure and Formatting Requirements
+All “What” readings must follow a consistent, predictable structure to support reuse and learner navigation.
+4.1 Title and Heading Hierarchy
+The reading title must:
+Appear at the top of the item.
+Use a level 1 heading (H1).
+Follow the format:
+TITLE: Your Title Here
+Use the following heading hierarchy for the body:
+H2 (##) for all main sections.
+H3 (###) for subsections.
+H4 (####) for further subdivisions if needed.
+4.2 Required Section Structure
+Each “What” reading must include at least the following structure:
+Introduction (required, first main section)
+Header: ## Introduction
+Content:
+A short, punchy hook (1–2 sentences) that connects to learner goals, real-world relevance, or a compelling question.
+A brief introduction to the learning objectives, explaining what learners will understand by the end of the reading (in plain language).
+Body Sections (one or more main sections, H2)
+Each main section uses a descriptive H2 heading, not generic labels like “Body” or “Main Content”.
+Authors should structure content into logical chunks that:
+Introduce core concepts.
+Explain key terms and relationships.
+Provide examples and, where helpful, simple step-wise descriptions of processes.
+Conclusion (required, final main section)
+Header: ## Conclusion
+Content:
+A concise wrap-up of key takeaways.
+A forward-looking note that connects the reading to:
+Upcoming items in the module (e.g., hands-on activities, assessments) without relying on fragile cross-references.
+Practical next steps learners can take (e.g., “In the upcoming activity, you’ll…” framed in a standalone-friendly way).
+4.3 Template
+Authors should use the following template as a baseline for all “What” readings (adapt wording as needed, but maintain structure):
+# TITLE: [Title Goes Here]
+
+## Introduction  
+[Hook goes here in 1–2 sentences…]
+
+[Learning objective introduction goes here: what the learner will understand or be able to explain after this reading…]
+
+## [Main Heading 1]  
+[Content that develops one major concept or cluster of related concepts…]
+
+## [Main Heading 2]  
+[Content that adds further concepts, examples, or perspectives…]
+
+… (add additional main sections as needed, all H2) …
+
+## Conclusion  
+[Wrap up key ideas, highlight the most important takeaways, and connect briefly to how this understanding will support learners in practice or in upcoming course activities.]
+
+---
+
+# KEY STATS AND SOURCES FOR REVIEWER’S USE  
+- [Stat or factual claim] – [Source name], [URL], [Publication date]
+- [Stat or factual claim] – [Source name], [URL], [Publication date]
+5. Style and Accessibility Requirements
+All “What” readings must follow a consistent style that aligns with Coursera’s brand and supports accessibility for a global learner base.
+5.1 Language and Readability
+Address learners directly using “you”.
+Use conversational, plain language while remaining professional.
+Avoid or explain:
+Jargon, idioms, and culture-specific references.
+Domain-specific terminology that has not been defined.
+Define all technical terms and acronyms on first use:
+Spell out the full term followed by the acronym in parentheses, then use the acronym thereafter.
+5.2 Structure and Lists
+Use headings to chunk content into logical, scannable sections.
+Use bulleted or numbered lists when:
+Presenting multiple related points.
+Outlining steps in a process.
+Avoid extremely long paragraphs; break up dense text to support skimming and comprehension.
+5.3 Accessibility
+All content must comply with WCAG-aligned accessibility practices, including:
+Clear heading structure as specified above.
+Sufficient contrast and legible font sizes in any embedded images or screenshots.
+Avoidance of conveying meaning by color alone.
+Any non-text element (images, diagrams, charts) must include:
+Alt text recommendations (see Section 6).
+A textual explanation in the reading itself when the visual is essential to understanding.
+6. Visual Elements (Images, Diagrams, Tables)
+Visuals in “What” readings should be instructionally necessary, not decorative.
+6.1 When to Use Visuals
+Use visuals to:
+Clarify complex relationships or systems.
+Illustrate stepwise processes or workflows.
+Provide a conceptual overview that is hard to convey solely in prose.
+Do not add visuals purely to “dress up” the reading.
+6.2 Alt Text and Descriptions
+For every non-decorative image or diagram, authors must:
+Provide alt text recommendations that:
+Convey the essential instructional information.
+Avoid redundancy with nearby text; instead, complement it.
+Ensure that the main narrative text:
+Explains the visual’s relevance and helps learners interpret it.
+6.3 Tables
+Tables must be:
+Properly formatted with header rows and meaningful column labels.
+Used primarily for:
+Comparisons (e.g., feature vs feature).
+Structured data that benefits from tabular layout.
+Avoid using tables solely for visual layout or design.
+7. Factual Accuracy, Stats, and Sources
+“What” readings must be accurate, current where relevant, and verifiable.
+7.1 Key Stats and Sources Section
+Each “What” reading must include a section at the end titled:
+# KEY STATS AND SOURCES FOR REVIEWER’S USE
+This section:
+Is intended for internal review and quality assurance, not as learner-facing content.
+Must list:
+Any statistics, quantitative claims, or critical factual statements used in the reading.
+For each, provide:
+A brief description of the claim.
+The source name, URL, and publication date (or “n.d.” if no date is available).
+Is not counted in the 800–1,500 word requirement for the reading itself.
+7.2 Use of Sources
+Prefer:
+High-quality, reputable sources (research articles, official documentation, industry reports, government or NGO data).
+Up-to-date information for any time-sensitive topics.
+Avoid:
+Unsupported claims, vague generalizations, or unverifiable anecdotes.
+When referencing Coursera proprietary research, clearly label it as such in the KEY STATS AND SOURCES section.
+8. Coursera Brand Voice (Who We Are)
+All “What” readings must embody Coursera’s brand voice. Authors should check their drafts against the four characteristics below:
+Magnetic
+Use active voice and confident, straightforward statements.
+Spark curiosity by connecting concepts to real-world problems and opportunities.
+Show passion for learning and highlight the “why” behind concepts.
+Uplifting
+Proceed from a positive, empowering stance.
+Connect small wins (understanding a concept) to bigger goals (career growth, new opportunities).
+Emphasize what learners can do next, not what they lack.
+Trusted
+Be accurate and appropriately detailed, avoiding overclaiming.
+Avoid jargon and ambiguity; clarify terms and assumptions.
+Be inclusive:
+Use examples that reflect diverse people, industries, and contexts.
+Avoid stereotypes and biased framing.
+Inventive
+Where appropriate, highlight relevant:
+Partnerships.
+Innovations in the field.
+Research findings (including Coursera research, if available).
+Show how the domain is evolving and how learners can stay current.
+9. Coursera Brand Tone (How We Communicate)
+Tone should reflect our personality in context of the learner’s journey.
+Clear and Confident
+Answer core questions directly: What is this? Why does it matter? How does it work at a high level?
+Connect content to concrete outcomes (skills, tasks, career relevance).
+Avoid hedging language unless uncertainty is important to acknowledge.
+Conversational
+Use natural, human language:
+Contractions are acceptable where appropriate.
+Avoid overly formal or academic phrasing.
+Be concise; remove unnecessary filler and repetition.
+Empathetic and Motivating
+Assume learners may be:
+New to the topic.
+Balancing other commitments.
+Learning in a second or third language.
+Avoid:
+Negative or shaming language.
+Colloquialisms, idioms, or terms with offensive or problematic origins.
+10. Authoring Process and Submission Checklist
+Authors (or vendor partners) creating “What” readings should follow this process:
+Identify Core Learning Objectives
+Confirm which Skill and Skill Expressions this reading supports.
+Draft 1–3 clear, concise learning objectives for the reading (even if not shown verbatim).
+Craft the Introduction
+Write a 1–2 sentence hook that resonates with learner needs or a real-world scenario.
+Add a brief overview of what learners will understand by the end.
+Organize the Body
+Break content into 2–4 main sections (H2) with descriptive headings.
+Use H3/H4 sparingly for logical subtopics.
+Ensure the total length (Intro + body + Conclusion) is 800–1,500 words.
+Write the Conclusion
+Summarize key takeaways in a concise, learner-friendly way.
+Connect the concepts to how they’ll support upcoming practice or real-world application.
+Add Visuals (Optional but Recommended When Helpful)
+Include diagrams, images, or tables where they clearly aid understanding.
+Provide alt text recommendations and explanatory narrative in the body.
+Review for Brand Voice, Tone, and Accessibility
+Check against Sections 5, 8, and 9.
+Ensure technical terms are defined and examples are inclusive.
+Document Sources
+Add a # KEY STATS AND SOURCES FOR REVIEWER’S USE section after the main content.
+List each key factual or statistical claim with source, URL, and date.
+Confirm this section is maintained outside the main word count.
+Final Self-Check Before Submission
+ Title uses TITLE: and H1.
+ Sections follow required hierarchy (## Introduction, body sections as H2, ## Conclusion).
+ Word count (Introduction through Conclusion) is 800–1,500 words.
+ Reading is standalone and understandable if reused in a different course/program context.
+ KEY STATS AND SOURCES section is present, clear, and not counted in the word total.
 Embedding Articles or Resources in Readings
 You can also embed articles/resources into readings for download assuming you have the rights to do so while following these guidelines:
 Any content that belongs to others requires legal permissions to use and distribute for profit
