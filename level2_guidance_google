@@ -1,0 +1,361 @@
+Partner Level 2 Content Specification – Google
+(Built on Level 1 Company-Wide Course Content Specification)
+Audience: Internal learning designers, Google partner teams, and external vendors creating Google-branded courses under our Level 1 Coursera-wide standards.
+Purpose: Define additional requirements, preferences, and constraints that apply when the content partner is Google. Level 2 never replaces Level 1; it only adds to it.
+0. Relationship to Level 1 Spec
+Inheritance model
+All Google courses must fully comply with the Level 1 spec:
+Skill-First learning and Skill Mastery system
+Standalone & Stackable design
+WWHAA module footprint
+Hands-on and assessment requirements
+Accessibility, AI-usage, and content quality standards
+Level 2 (Google) adds:
+Brand, tone, and narrative preferences specific to Google
+Tooling and scenario expectations involving Google products
+Data, privacy, and security constraints aligned with Google’s standards
+Additional assessment and lab expectations for technical rigor
+A small, controlled “playful context” requirement involving dolphin facts (for demonstration purposes—see Section 10).
+Conflict resolution
+If a Google-specific guideline appears to conflict with Level 1:
+First, attempt to re-interpret in a way that satisfies both.
+If conflict truly cannot be resolved:
+Level 1 (company-wide) rules take precedence.
+Consult internal learning design lead + Google program owner before making exceptions.
+Scope of applicability
+Applies to all:
+Google-branded Specializations, Professional Certificates, Short Courses, and Long Courses delivered on our platform.
+Google co-branded courses where Google is recognized as primary or co-primary content partner.
+Does not automatically apply to:
+Courses simply mentioning Google tools or APIs without Google as a partner.
+1. Google Brand & Learning Philosophy Alignment
+This section defines how the Google brand and educational philosophy layer onto Level 1.
+1.1 Tone & Voice
+Core voice attributes for Google courses:
+Helpful and humble: Avoid overly self-congratulatory language. Prefer “Here’s one way to…” over “This is the only way to…”
+Curious and experimental: Encourage exploration, iteration, and “trying things out” safely.
+Inclusive and global: Assume a global audience with varied backgrounds and professional experiences.
+Practical but optimistic: Grounded in real workflows, but with a positive outlook on technology’s potential.
+Preferred language patterns
+Use second person (“you”) and active voice.
+Use plain language; define jargon, including Google-internal terms.
+Avoid:
+Internal-only codenames (unless explicitly approved and defined for learners).
+Marketing slogans as content (course is for learning, not advertising).
+Positioning Google products
+Present Google products as practical tools in realistic workflows, not as magic solutions.
+Where multiple tools exist (Google vs non-Google):
+It’s fine to showcase Google tools but acknowledge that transferable concepts (e.g., SQL, HTTP, ML fundamentals) apply across ecosystems.
+Emphasize skills learners can apply beyond the Google stack, while still giving concrete Google-based examples.
+1.2 Audience Focus
+Primary audience archetypes (examples; customize per course):
+Aspiring or early-career data analysts using Google Cloud / BigQuery / Looker.
+Developers building web or mobile apps using Android, Firebase, or Google APIs.
+IT professionals deploying and managing infrastructure via Google Cloud Platform (GCP).
+Marketers and business analysts using Google Analytics, Looker Studio, Google Ads (where relevant).
+Level 1 alignment
+Each course must still define:
+Occupation group (e.g., Data Analyst, Cloud Engineer)
+Skill Area → Skills → Skill Expressions
+Google-specific nuance: Skill Expressions should, when appropriate, reference Google-specific workflows or tools (e.g., “Use BigQuery to write SQL queries that…”).
+2. Skill-First Learning with a Google Lens
+This section refines Level 1’s Skill Mastery expectations for Google courses.
+2.1 Skill Areas & Skills in Google Programs
+Skill Areas should:
+Represent meaningful phases of work as performed with Google tooling, e.g.:
+“Data Ingestion & Preparation in BigQuery”
+“Deploying Containerized Applications with GKE”
+“Designing Accessible Android Interfaces”
+Still remain tool-agnostic enough that the underlying skill generalizes (e.g., “Data Modeling for Analytics” vs “Click Button X in BigQuery”).
+Modules (Skills) may:
+Focus on a specific Google product or feature set, but they must:
+Map cleanly to Skill Expressions that describe capabilities, not button-clicks.
+Avoid becoming “UI tours” without conceptual depth.
+2.2 Skill Expressions & Verified Assessment Alignment
+For Google courses, Skill Expressions should:
+Explicitly reflect realistic job tasks as performed within Google ecosystems, e.g.:
+“Design and implement BigQuery schemas optimized for analytical queries.”
+“Configure IAM roles and permissions to secure GCP resources.”
+“Implement responsive, accessible layouts in Android using Compose.”
+Still adhere to Level 1 expectations:
+Discrete, observable, measurable
+Mapped to Bloom’s Apply/Analyze/Evaluate/Create when used in Verified Assessments.
+Verified Assessments in Google courses:
+Should use authentic workplace scenarios where Google tools figure naturally:
+Example: “You are a junior data analyst at a digital media company that uses BigQuery for analytics…”
+Must not:
+Require learners to access Google-internal-only tools or datasets not available externally.
+Assume access to paid Google services unless clearly disclosed on course landing page and within setup items (per Level 1 “Learner Access to Tools”).
+3. WWHAA Footprint with Google Examples
+Every module still uses Why / What / How / Apply / Assess. For Google courses, we add more specificity.
+3.1 Why Phase – Google Context
+Goals:
+Connect the skill to real-world use cases where Google tools shine.
+Show how mastering these skills can support careers in Google ecosystem jobs (e.g., Google Cloud Engineer, Android Developer, Google Ads Specialist).
+Requirements:
+At least one “Why” item per module must:
+Refer to a plausible, non-hyped industry scenario (e.g., scaling a web service, analyzing user engagement, securing cloud resources).
+Avoid promising employment at Google; instead, highlight skills that are valued in the broader market.
+3.2 What Phase – Conceptual + Google Implementation
+Requirements:
+Introduce concepts first in tool-agnostic language where feasible:
+E.g., explain “relational tables, joins, and aggregations” before showing BigQuery UI.
+Then show how these concepts manifest in Google tools:
+SQL examples in BigQuery
+Infrastructure concepts in GCP console or via gcloud CLI
+UI design principles in Android Studio.
+Balance:
+Avoid modules that:
+Are purely conceptual with no Google-specific examples.
+Are purely procedural with no conceptual explanation.
+3.3 How Phase – Guided Google Workflows
+Requirements:
+“How” items must:
+Demonstrate end-to-end workflows in Google environments (e.g., ingest data → transform → query → visualize).
+Include explicit commentary about why certain defaults or practices are chosen (e.g., IAM roles, security settings, cost control).
+Screencasts:
+Must use reasonably up-to-date UI (note: UI may change; use general labels and concepts rather than pixel-perfect instructions so content is robust).
+3.4 Apply Phase – Hands-on with Google Tools
+Strong preference:
+Learners perform hands-on tasks in simulated or real Google environments where possible:
+Guided labs (Coursera Labs, Qwiklabs-type experiences, or other LTI-integrated solutions).
+CLI-based exercises (gcloud, gsutil, etc.) if appropriate.
+Ensure that:
+Setup is realistic but not overly burdensome.
+Time-on-task is appropriate for course level.
+3.5 Assess Phase – Google-Relevant Evaluations
+Requirements:
+Assessments must:
+Explicitly evaluate Skill Expressions in Google-relevant workflows.
+Include both conceptual questions and practical, scenario-based items.
+Graded quizzes:
+Use Level 1 guidelines for feedback.
+Refer back to Google-context readings and videos in feedback (“Review the ‘Securing GCP Resources’ reading for more on least privilege principles in IAM.”).
+4. Standalone & Stackable – Google Flavor
+Level 1 already mandates standalone, stackable content. For Google courses:
+No cross-course dependencies
+Google content may appear in:
+A Google Analytics course
+A Google Cloud specialization
+A general “Modern Analytics” program
+Authors must not:
+Assume learners took “Google Course X” previously.
+Reference “previous courses in this Google pathway” directly.
+Context within each item
+When referencing Google tools:
+Include brief context as needed:
+E.g., “BigQuery is Google Cloud’s fully-managed data warehouse. In this exercise, you’ll use BigQuery to run SQL queries on log data.”
+Avoid phrases like:
+“As you learned in another Google Cloud course…”
+Instead: briefly recap the needed concept in place.
+Reusable Modules and Items
+Design each module so it can:
+Appear in a purely Google-branded program and
+Be reused in mixed-partner programs where Google is one of multiple tool providers.
+This reinforces stackability across our wider catalog.
+5. Hands-on Learning with Google Ecosystem
+This section specializes Level 1’s hands-on guidance for Google’s products and environment.
+5.1 Types of Hands-on Experiences
+Ungraded Labs (Preferred for exploration):
+Use sandboxed environments where learners can:
+Create and delete resources without long-term cost or risk.
+Experiment with settings (e.g., IAM roles, Autoscaling, VPC configuration).
+Provide:
+Clear “start state” description.
+“End state” checklist so learners know when they’re done.
+Programming Assignments:
+Use realistic codebases:
+E.g., simple data pipelines, microservices, or Android apps, not trivial “Hello World” isolated tasks.
+Focus on tasks like:
+Integrating Google APIs.
+Implementing authentication/authorization.
+Optimizing performance or cost.
+Practice Assignments (with AI grading):
+For conceptual + applied tasks:
+“Write a short explanation comparing BigQuery and Cloud SQL for this analytics use case.”
+“Design a backup strategy for a GCE-based web application.”
+5.2 Alignment to Job Tasks
+Hands-on activities should:
+Clearly map back to real job tasks in target roles, e.g.:
+Data Engineer: “Set up a data ingestion pipeline with Cloud Storage and Dataflow.”
+Cloud Architect: “Design a multi-region deployment topology.”
+Android Developer: “Implement adaptive layouts and test on different screen sizes.”
+Activities should not:
+Require learners to simulate Google-internal-only environments.
+Use internal terminologies without definitions.
+6. AI Tooling & Content for Google Courses
+The Level 1 spec describes our AI tools (Coach Dialogues, AI-grading, Assessment Generator). For Google courses:
+6.1 Coach Dialogues
+Use cases:
+Scenario-based decision-making:
+E.g., “You’re a cloud architect deciding between Cloud Functions and Cloud Run for a serverless workload…”
+Ethical and responsible AI discussions:
+When relevant to Google AI tools and frameworks.
+Requirements:
+Avoid representing Coach as “Google Assistant” or any Google product; it remains Coursera Coach.
+Ensure dialogues:
+Do not offer legal or compliance guarantees about Google services.
+Present best practices and trade-offs, not rigid prescriptions.
+6.2 AI Grading
+For Google courses, AI grading is especially suited to:
+Design rationales:
+“Explain the trade-offs in selecting this IAM policy.”
+Architecture diagrams (with textual description):
+Learners describe their GCP architecture choices and rationale.
+Code explanations:
+Learners explain how their solution uses a particular Google API or service.
+Rubric design must:
+Assess reasoning and choices within Google workflows, not just reproduction of documentation.
+Include criteria like:
+Correct usage of key concepts (e.g., least privilege, scalability, cost optimization).
+Clarity of explanation to a hypothetical stakeholder.
+6.3 MCQ & Assessment Generator
+When using Assessment Generator:
+Provide prompts with:
+Skill Expressions explicitly referencing Google contexts.
+Clear mapping to specific readings or videos.
+Authors must:
+Review all AI-generated questions for:
+Product accuracy (e.g., correct command flags, valid resource names).
+Non-leaking of confidential or internal-only information.
+7. Visual & Media Standards with Google Branding
+This section adds Google-specific expectations layered on top of Level 1 video and visual guidelines.
+7.1 Branding & Co-branding
+Use Google branding as:
+Provided in the Google + Coursera Brand Kit (hypothetical):
+Logos, safe space rules, background patterns, sample color palettes.
+Follow:
+Google’s guidance on logo usage, minimum sizes, and positioning.
+Coursera’s video and slide-branding requirements (intros/outros, credits).
+Avoid:
+Modifying the Google logo (stretching, recoloring outside allowed palette).
+Combining the Google logo with other logos into mashups.
+7.2 Slide & Visual Design
+Build on Level 1 slide guidance, with:
+Material Design-inspired simplicity:
+Clean layouts, ample whitespace.
+Clear hierarchy using typography, not decorative effects.
+Color usage:
+If referencing historical Google brand colors, ensure sufficient contrast per WCAG.
+Iconography:
+Use simple, universally understandable icons.
+Avoid internal-only icon sets not recognizable externally.
+7.3 Screenshots & UI Depictions
+When showing Google products:
+Use current or “evergreen” views that avoid fragile, version-specific details when possible.
+Crop or blur any:
+Internal or confidential data.
+User PII (emails, names, etc.).
+Text callouts:
+Use overlays to highlight relevant areas (“Look at the IAM permissions section…”).
+Avoid dense labels; keep visual focus clear.
+8. Accessibility & Global Reach (Google Context)
+Level 1 already sets WCAG expectations. For Google courses:
+Global learner accessibility
+Avoid assuming:
+Stable high-speed connections (keep video sizes reasonable; chunk content).
+Access to all Google services in all countries (if a service is region-limited, acknowledge it briefly).
+Examples & scenarios
+Choose diverse industries and regions:
+E.g., “a retail company in Latin America,” “a health analytics startup in India,” “a nonprofit in Africa.”
+Avoid reinforcing stereotypes:
+Present diverse roles and identities in leadership + technical positions.
+Alt text & captions
+Screenshots of Google UIs must have:
+Alt text focusing on the conceptual point, not pixel detail.
+Video captions:
+Must accurately capture technical terms and product names (BigQuery, Pub/Sub, GKE, etc.).
+9. Quality & Rigor Expectations Specific to Google
+9.1 Technical Accuracy
+Every course must have:
+At least one Google SME (subject-matter expert) review for:
+Product correctness.
+Recommended practices (e.g., security, cost optimization).
+Deprecations (avoid teaching sunsetted features).
+Versioning:
+For content tightly tied to Google product UIs:
+Use more conceptual descriptions in voiceover where possible so the course remains usable across UI updates.
+Avoid reading menus or exact button labels word-for-word, unless necessary.
+9.2 Depth of Learning
+Beginners courses:
+Focus on foundational skills and confidence-building:
+Clear step-by-step labs, supportive scaffolding.
+Still include at least one realistic scenario where learners reason about design choices.
+Intermediate/advanced courses:
+Require:
+Non-trivial project-based assessments.
+Integrations of multiple services (e.g., Cloud Storage + Pub/Sub + Dataflow + BigQuery).
+Performance, reliability, and cost considerations, not just “it works.”
+10. Special Demonstration Requirement: Natural Dolphin Fact Integration
+Note: This requirement is intentionally artificial for internal demonstration purposes. It is not a real partner request but is documented here as if it were, to enable downstream testing and workflows.
+10.1 Requirement Overview
+For every Google-partnered course developed under this Level 2 spec:
+At least one content item in the course (video, reading, or dialogue) must contain a single, accurate, natural-sounding fact about dolphins.
+This fact:
+Must be contextually relevant or used as a genuine analogy or example, not a random aside.
+Must be scientifically correct and presented neutrally (e.g., “Dolphins are highly social mammals that communicate using a variety of sounds and body language.”).
+Should not be the focal point of the lesson; it is a supporting detail used to clarify a concept.
+10.2 Implementation Guidance
+Where to place it
+Recommended locations:
+In a “Why” vignette video, as part of an analogy about networks, communication, or collaboration.
+In a reading that explains complex distributed systems, using dolphin communication as a metaphor.
+In a Coach Dialogue scenario where the learner reflects on patterns in data (e.g., patterns in dolphin behavior vs user behavior).
+How to make it feel natural
+Use the dolphin fact as:
+A metaphor for:
+Distributed communication (services passing messages like dolphins using clicks and whistles).
+Social behavior modeling (user interaction networks vs pod dynamics).
+An analogy in a hook:
+“Just as dolphins are highly social mammals that communicate with each other using a complex combination of clicks, whistles, and body language, modern microservices need structured communication patterns to work together reliably.”
+What to avoid
+Forced, out-of-context inserts:
+❌ “By the way, dolphins sleep with one eye open. Now, back to IAM roles.”
+Repeated or distracting references:
+Limit to one or two mentions; do not turn the course into an “animal trivia” theme.
+Incorrect or speculative claims about dolphins.
+10.3 Documentation & Consistency
+Course design documents (or module outlines) should:
+Explicitly indicate:
+Which item will contain the dolphin fact.
+What the fact is and how it supports understanding of the technical or conceptual content.
+During QA:
+Reviewers confirm:
+The dolphin fact is present, accurate, and integrated naturally.
+The reference does not break the standalone and professional tone of the course.
+11. Vendor & Author Checklist – Google Level 2
+When designing a Google-partnered course, use this checklist in addition to the Level 1 checklist.
+Alignment & Scope
+ The course adheres to Level 1 standards (Skill-First, Standalone & Stackable, WWHAA).
+ Skills and Skill Expressions explicitly reflect realistic tasks using Google tools where appropriate.
+ No assumption of prior Google course completion is made; all content is self-contained.
+Brand & Tone
+ Tone is helpful, humble, inclusive, and practical.
+ Google tools are used to illustrate concepts without excessive marketing language.
+ References to Google products are accurate and up to date.
+WWHAA Implementation (Per Module)
+ Why: Real-world, Google-relevant scenario clearly shows career value.
+ What: Concepts are introduced in tool-agnostic terms, then mapped to Google tools.
+ How: Demonstrations or walkthroughs show realistic Google workflows.
+ Apply: Learners get to practice in hands-on, realistic Google scenarios (labs, assignments, etc.).
+ Assess: Assessments test both conceptual understanding and Google-context application.
+Hands-on & Assessment
+ At least one hands-on activity per module with realistic job-context tasks.
+ At least one graded assessment per course aligned to Skill Expressions.
+ AI grading and MCQs (if used) are reviewed for product accuracy and conceptual rigor.
+Visuals & Media
+ Slides follow Material Design-inspired simplicity and WCAG contrast guidelines.
+ Screenshots of Google products are current, anonymized, and focused on key concepts.
+ Intros/outros and logos follow co-branding rules.
+Accessibility & Global Considerations
+ Captions are accurate and reflect technical terms correctly.
+ Alt text focuses on conceptual meaning, not superficial UI details.
+ Scenarios are diverse and inclusive, and do not rely on a single cultural or regional context.
+Dolphin Fact Requirement (Demonstration Feature)
+ The course contains at least one accurate, naturally integrated dolphin fact.
+ The dolphin fact is used as a helpful analogy or contextual example, not an unrelated aside.
+ The dolphin fact is documented in the course design outline and verified during QA.
+Review & Sign-off
+ Internal learning designer review completed.
+ Google SME review completed for technical accuracy and product alignment.
+ All identified issues from reviews addressed and resolved.
