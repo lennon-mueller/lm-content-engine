@@ -1,0 +1,411 @@
+Partner Level 2 Content Specification – Microsoft
+(Built on Level 1 Company-Wide Course Content Specification)
+Audience: Internal learning designers, Microsoft partner teams, and external vendors creating Microsoft-branded or co-branded courses under our Level 1 standards.
+Purpose: Define additional requirements, preferences, and constraints that apply when the content partner is Microsoft. Level 2 never replaces Level 1; it only extends it.
+0. Relationship to Level 1 Spec
+Inheritance model
+All Microsoft courses must fully comply with the Level 1 spec:
+Skill-First learning and Skill Mastery system
+Standalone & Stackable course design
+WWHAA module footprint
+Hands-on learning and assessment requirements
+Accessibility, AI, and production quality standards
+This Microsoft Level 2 spec adds:
+Brand, tone, and narrative preferences specific to Microsoft.
+Tooling expectations for Microsoft ecosystems (e.g., Azure, Power Platform, Microsoft 365, Visual Studio, .NET).
+Data, privacy, and security framing aligned with Microsoft’s emphasis on trust and responsible cloud computing.
+Additional expectations around enterprise workflows, collaboration, and real-world cross-tool scenarios.
+A demonstration requirement: each course must include one naturally integrated workout tip, not forced or gimmicky.
+Conflict resolution
+If any Microsoft-specific guidance appears to conflict with Level 1:
+First, interpret or adjust the implementation so that both sets of expectations are satisfied.
+If conflict cannot be reconciled:
+Level 1 (company-wide) rules take precedence.
+Escalate to our internal learning design lead and the Microsoft program owner for documented exceptions.
+Scope of applicability
+Applies to:
+Microsoft-branded Specializations, Professional Certificates, Short Courses, and Long Courses.
+Co-branded offerings where Microsoft is a named content partner.
+Does not automatically apply to:
+Courses that merely use or mention Microsoft tools without Microsoft as a content partner.
+1. Microsoft Brand & Learning Philosophy Alignment
+This section defines how Microsoft’s brand and learning philosophy layer onto Level 1.
+1.1 Tone & Voice
+Core voice attributes for Microsoft courses:
+Professional yet approachable: Clear, structured explanations in a friendly tone.
+Empowering and learner-centric: Emphasize how tools and skills help learners achieve their goals, not how impressive the tools are on their own.
+Pragmatic and enterprise-aware: Use examples that reflect real business environments, not only hobby or toy scenarios.
+Inclusive and collaborative: Highlight diverse learners and teams; acknowledge collaboration as central to modern work.
+Preferred language patterns
+Use second person (“you”) to speak directly to the learner.
+Use simple, direct sentences; define technical terms promptly.
+Prefer:
+“You can use Azure Functions to…” over “Azure Functions is the best way to…”
+“One common approach is…” over “The correct way is…”
+Avoid:
+Overly promotional or sales language.
+Overuse of internal Microsoft acronyms or project names without definitions.
+Positioning Microsoft products
+Present Microsoft products as:
+Flexible tools that integrate into broader ecosystems.
+Platforms to implement the principles taught (e.g., security, DevOps, analytics), not as the principle itself.
+When multiple vendors’ tools could solve a problem:
+It’s acceptable to showcase Microsoft tools; clarify which concepts are transferable to other platforms.
+1.2 Audience Focus
+Typical target roles (examples; refine per course):
+Cloud Administrator / Cloud Engineer using Azure.
+Data Analyst / BI Professional using Power BI and Microsoft Fabric.
+Application Developer using .NET, Visual Studio, GitHub, Azure DevOps.
+Productivity or collaboration roles using Microsoft 365, Teams, SharePoint.
+Power Platform makers using Power Apps, Power Automate, Power BI.
+Alignment with Level 1:
+Each course must still define:
+Occupation group.
+Skill Area → Skills → Skill Expressions.
+Microsoft nuance:
+Skill Expressions should describe capabilities in workflows where Microsoft tools are first-class examples (e.g., “Design secure and scalable solutions on Azure App Service”).
+2. Skill-First Learning with a Microsoft Lens
+We retain the Skill Mastery framework and refine it for Microsoft contexts.
+2.1 Skill Areas & Skills
+Skill Areas for Microsoft courses should reflect:
+Real phases of enterprise work and solution lifecycles, e.g.:
+“Foundations of Azure Infrastructure”
+“Data Modeling & Visualization with Power BI”
+“Building Enterprise Apps with .NET and Azure”
+“Automating Workflows with Power Automate”
+“Modern Collaboration with Microsoft 365”
+Skills (per module) should:
+Be capability-focused, not UI-focused, e.g.:
+“Configure and monitor virtual machines in Azure.”
+“Create an interactive Power BI report with appropriate visualizations.”
+“Implement role-based access control (RBAC) for Azure resources.”
+2.2 Skill Expressions & Verified Assessments
+Skill Expressions in Microsoft courses should:
+Map to discrete tasks or behaviors in realistic Microsoft environments, e.g.:
+“Deploy and scale a web application on Azure App Service.”
+“Implement row-level security in Power BI to control data access.”
+“Use Power Automate to design a multi-step automated workflow triggered by business events.”
+Maintain Level 1 standards:
+Measurable, observable, and aligned with Bloom’s Apply/Analyze/Evaluate/Create for Verified Assessments.
+Verified Assessments:
+Must embed Skill Expressions inside authentic scenarios where Microsoft tools are used naturally:
+Example scenario: “You are a cloud administrator for a mid-size retail company migrating their on-premises web application to Azure…”
+Must not:
+Assume access to Microsoft internal tooling.
+Require paid licenses unless clearly disclosed on the course landing page and in appropriate items, per Level 1 “Learner Access to Tools.”
+3. WWHAA Footprint with Microsoft Context
+Every module retains the Why / What / How / Apply / Assess phases. This section adds Microsoft specificity.
+3.1 Why Phase – Microsoft-Relevant Motivation
+Goals:
+Connect module content to real business or professional value using Microsoft scenarios.
+Make clear why this skill matters for:
+Employability.
+Team productivity.
+System reliability, security, or performance.
+Requirements:
+At least one “Why” item per module must:
+Feature a realistic scenario (e.g., securing cloud workloads, enabling remote collaboration, analyzing business performance).
+Avoid implying employment or certification guarantees (e.g., “This helps you prepare for roles that often require skills like these,” not “This will get you a job at Microsoft”).
+3.2 What Phase – Concepts + Microsoft Implementations
+Requirements:
+Introduce underlying concepts using platform-neutral terminology where reasonable:
+E.g., explain “IAM and RBAC concepts” before showing Azure role assignments.
+Explain “star schema modeling” before jumping into Power BI.
+Then demonstrate:
+How those concepts are applied using Microsoft tools.
+How Microsoft implementations compare or map to generic principles (e.g., “Azure Resource Groups help you organize and manage related resources; conceptually, they’re similar to project containers in other platforms”).
+Balance:
+Avoid content that is:
+Only conceptual with no Microsoft grounding.
+Only click-by-click instructions with no conceptual scaffolding.
+3.3 How Phase – Guided Microsoft Workflows
+“How” items should:
+Demonstrate realistic, end-to-end workflows:
+Example: “Create a resource group → deploy a VM → configure network security → monitor resource health.”
+Example: “Connect Power BI to a data source → build measures → design a report → publish and share.”
+Include design rationale:
+“We’re selecting this VM size because…”
+“We’re using this visual because it best communicates…”
+Screencasts:
+Use production-quality environments, with:
+Clean desktop, minimal distraction.
+Current or reasonably evergreen UI; avoid over-focusing on transient UI details that may change.
+3.4 Apply Phase – Hands-on Practice in Microsoft Ecosystems
+Strong preference:
+Practice assignments and labs should place learners inside a Microsoft-relevant scenario, such as:
+Maintaining or improving an existing Azure infrastructure.
+Enhancing a Power BI report used by business stakeholders.
+Extending a Power Apps application to support a new business process.
+Provide:
+Clear, step-by-step instructions.
+Enough freedom for creativity (especially in intermediate/advanced modules).
+3.5 Assess Phase – Microsoft-Relevant Evaluation
+Assessments should:
+Evaluate both conceptual understanding and practical decision-making in Microsoft contexts.
+Include:
+Scenario-based MCQs or multi-part questions.
+AI-graded short answers or design rationales where appropriate.
+Feedback on graded quizzes (per Level 1):
+Refer learners back to concrete Microsoft-based learning items:
+“Revisit the ‘Designing RBAC Policies in Azure’ video to review how to map users to least-privilege roles.”
+4. Standalone & Stackable – Microsoft Content
+Level 1 enforces standalone, stackable design. Microsoft courses apply this with specific care to Microsoft product ecosystems.
+No cross-course dependency assumptions
+Content may be reused in:
+Microsoft-focused learning paths.
+Mixed-partner programs covering multiple tools/vendors.
+Authors must not:
+Assume learners completed “Microsoft Course X” or a specific Microsoft certification track.
+Say “As you learned in the previous Microsoft Azure course…”
+Instead: provide concise recap within the module.
+Context in each item
+When referencing Microsoft tools or features:
+Briefly re-establish what it is and why it matters, especially on first use in a module:
+“Azure Functions is a serverless compute service that lets you run code without managing servers…”
+Preserve coherence if that item is reused alone in another course.
+Reusable modules and items
+Design modules to:
+Work in a purely Microsoft-branded program.
+Work in multi-vendor, skills-first programs where Microsoft is one example platform.
+Avoid embedding course- or program-specific references in items (per Level 1 examples).
+5. Hands-on Learning with Microsoft Ecosystem
+This section implements Level 1 hands-on principles with specific attention to Microsoft tools and services.
+5.1 Types of Hands-on Experiences
+Ungraded Labs
+Ideal for:
+Exploring Azure console, CLI (az), or scripting.
+Experimenting with solutions in Power BI, Power Apps, or Microsoft 365.
+Provide:
+Clear lab objectives (“By the end of this lab you will have…”).
+Prerequisites and setup instructions if any.
+Cleanup instructions where resources incur cost.
+Programming Assignments
+Use realistic, maintainable code bases:
+Small web APIs, event-driven services, or line-of-business apps.
+Typical tasks:
+Add logging and monitoring to an existing .NET application hosted on Azure App Service.
+Implement new business logic in an Azure Function.
+Refactor a PowerShell script to manage Azure resources more reliably.
+Practice Assignments (AI-graded or manually graded)
+Good for:
+Architecture design rationales.
+Security and compliance scenarios.
+Data modeling decisions in analytics contexts.
+App items / Plugins
+For deeper integration:
+Use LTI tools or plugins where learners can work in simulated or hosted Microsoft environments.
+5.2 Alignment with Job Tasks in Microsoft Contexts
+Hands-on activities should:
+Mirror realistic day-to-day activities:
+Cloud engineers configuring VNets and NSGs.
+Data analysts building KPI dashboards in Power BI.
+Collaboration admins managing Teams policies and channels.
+Business users automating processes with Power Automate flows.
+Encourage:
+Decision-making trade-offs (cost vs performance; security vs ease of use).
+Documentation and communication (e.g., writing a short justification for an architecture choice).
+Avoid:
+Purely toy examples that don’t resemble real enterprise use.
+“Click-through tutorials” without reflection or problem solving.
+6. AI Tooling & Course Content for Microsoft Courses
+We re-use Level 1 AI tools (Coach Dialogues, AI grading, Assessment Generator) with Microsoft-focused contexts.
+6.1 Coach Dialogues
+Use Coach Dialogues for:
+Scenario-based reasoning:
+“You’re reviewing an Azure cost report and notice a sudden spike. Coach guides you through diagnosing possible causes.”
+Reflective prompts:
+“How would you explain the benefits of Power BI to a non-technical stakeholder?”
+Requirements:
+Coach should remain platform-neutral in branding; do not present it as Cortana or any Microsoft product.
+Ensure scenarios:
+Are realistic but do not provide official legal, compliance, or licensing advice.
+Emphasize reasoning and structured problem solving.
+6.2 AI Grading in Assignments & Peer Review
+AI grading is particularly useful for:
+Architecture descriptions:
+“Describe how you would design a resilient Azure application across two regions.”
+Governance and security rationales:
+“Explain why a given RBAC role assignment is too broad and how you would tighten it.”
+Analytical storytelling:
+“Write a brief narrative describing insights from a Power BI dashboard.”
+Rubrics should:
+Focus on:
+Conceptual correctness.
+Appropriate use of Microsoft capabilities.
+Clarity and communication.
+Avoid:
+Overfitting rubrics to specific UI sequences (e.g., requiring menu names).
+6.3 Assessment Generator for Microsoft Content
+When using Assessment Generator:
+Provide context-rich prompts:
+Include Skill Expressions that mention Microsoft tasks explicitly.
+Point to specific readings/videos on Azure, Power Platform, Microsoft 365, etc.
+All generated questions must be:
+Manually reviewed for product name accuracy, configuration feasibility, and non-disclosure of internal information.
+Edited for clarity and alignment to the stated learning objectives.
+7. Visual & Media Standards with Microsoft Branding
+These guidelines extend Level 1 video and visual standards.
+7.1 Co-branding & Identity
+Use the Microsoft brand elements:
+As provided in the co-branding asset kit (logos, color references, usage guidance).
+In compliance with both Microsoft and our platform’s brand policies.
+Co-branding patterns:
+Include partner bumpers and appropriate copyright info in introductory and closing videos, per Level 1.
+Ensure Microsoft logo usage adheres to:
+Clear space requirements.
+Proper proportions (no stretching, skewing, or recoloring outside permitted palette).
+7.2 Slide & Visual Design
+Build on Level 1 guidelines:
+Minimize text.
+Favor clear hierarchy and visuals.
+With Microsoft nuance:
+Align with modern Microsoft design aesthetics:
+Clean, flat design.
+Clear typographic hierarchy (titles, subtitles, body).
+Use accent colors sparingly to highlight important elements.
+Data visuals:
+For Power BI or Excel-based examples, ensure:
+Charts are readable, properly labeled, and not overly cluttered.
+Color schemes respect accessibility (contrast, color blindness).
+7.3 Screenshots & UI Depictions
+When capturing Microsoft interfaces (Azure Portal, Power BI, Teams, etc.):
+Use realistic but anonymized examples:
+Replace real company names with fictional ones.
+Remove PII (emails, names, internal IDs).
+Focus learners’ attention:
+Use subtle highlights or callouts to point at key UI regions.
+Avoid overwhelming learners with full-screen clutter if only a section is relevant.
+Keep screenshots:
+As evergreen as possible by:
+Emphasizing concepts (“look for the ‘Access control (IAM)’ area…”) rather than pixel-perfect instructions.
+8. Accessibility & Global Reach (Microsoft Context)
+Level 1 sets the baseline; this section emphasizes Microsoft-relevant scenarios.
+Global availability & edge cases
+Acknowledge that:
+Some Microsoft cloud services may differ by region or may not be available everywhere.
+When relevant:
+Briefly note regional considerations without deep legal or regulatory analysis.
+Inclusive examples
+Use diverse names, roles, industries, and geographies.
+Include scenarios where:
+Remote and hybrid work is common (Teams, SharePoint, OneDrive).
+Connectivity can be variable (be mindful about file sizes, streaming demands).
+Accessibility specifics
+For demos:
+Show or mention accessibility-minded features where appropriate (e.g., screen reader support, keyboard shortcuts, high contrast modes).
+Provide:
+Alt text that focuses on the core instructional value of each screenshot or diagram.
+Accurate captions for technical terms and product names.
+9. Quality & Rigor Expectations Specific to Microsoft
+9.1 Technical Accuracy
+Every Microsoft course must undergo:
+At least one Microsoft SME review (or equivalent partner-approved SME) for:
+Product correctness (commands, features, constraints).
+Recommended practices (security baselines, governance, maintainability).
+Deprecations (avoid teaching features slated for removal, or clearly flag them if historically relevant).
+Versioning strategy:
+When possible:
+Focus on patterns rather than ephemeral UIs.
+Frame instructions to remain robust against minor interface changes (e.g., “In the left navigation, look for ‘Settings’” rather than quoting every menu label verbatim).
+9.2 Depth & Progression
+Beginner courses:
+Emphasize:
+Conceptual clarity, confidence, and small wins (e.g., simple deployments, basic reports).
+Include:
+Clear “mental models” for how tools behave and fit together.
+Intermediate/advanced courses:
+Require:
+More complex, multi-step workflows.
+Design and optimization decisions (performance, costs, governance).
+Integration across services (e.g., Azure Functions + Storage + Event Grid, or Power BI + Excel + SharePoint).
+10. Special Demonstration Requirement: Natural Workout Tip Integration
+Note: This is a deliberate demonstration requirement for internal workflows. It is written as if it were a partner requirement but is meant to exercise validation and authoring patterns.
+10.1 Requirement Overview
+For every Microsoft-partnered course developed under this Level 2 spec:
+At least one content item in the course (video, reading, or dialogue) must include a single, helpful workout tip.
+This workout tip:
+Must appear naturally in the flow of the course content.
+Must be reasonable, safe, and broadly applicable to a general adult audience (e.g., short breaks, stretching, light physical activity).
+Should connect meaningfully to:
+Focus, productivity, sustainable work habits, or ergonomics.
+Must not:
+Be a random, out-of-nowhere comment.
+Suggest risky or extreme regimens (no high-intensity prescriptions, medical claims, or specialized regimens).
+10.2 Implementation Examples
+Example in a “Why” vignette about productivity:
+“When you’re troubleshooting a complex Azure deployment, it’s easy to sit and stare at logs for hours. In practice, you’ll solve problems more effectively if you work in focused blocks and build in short physical breaks. For example, many engineers find that standing up to stretch or taking a quick 2–3 minute walk every hour helps reduce fatigue and keeps their thinking sharp. Treat these brief movement breaks as part of your workflow—not as a distraction from it.”
+Example in a reading on sustainable learning habits:
+“As you work through the labs in this course, try to structure your time with short breaks. Between lab steps, consider doing a few shoulder rolls or gentle neck stretches away from the screen. These micro-workouts help reduce tension and can improve your focus when you return to configuring Azure resources or refining your Power BI report.”
+Example in a Coach Dialogue about managing long study sessions:
+Coach: “You’ve mentioned that you’re spending several hours configuring Azure policies. To keep your concentration, it can help to schedule a recurring quick movement break—something as simple as standing up to stretch your legs or doing a handful of light squats by your desk. How might you build that into your daily routine?”
+10.3 Constraints on Workout Tips
+Workout tips must:
+Be voluntary suggestions, not directives:
+Prefer “you might try” or “many learners find it helpful to…” rather than “you must…”.
+Avoid medical or diagnostic language:
+No claims of treating conditions, curing disease, or substituting medical advice.
+Be brief:
+A few sentences woven into the narrative, not a separate “fitness lesson.”
+Workout tips should not:
+Praise or criticize body types or appearances.
+Require special equipment or a gym.
+Involve high-risk movements (e.g., heavy lifting, advanced calisthenics, extreme cardio).
+10.4 Placement and Natural Integration
+Recommended locations:
+A “Why” or “Apply” phase item that discusses productivity, sustainable learning, or work habits.
+A reading that gives guidance on planning practice sessions or working through labs.
+A Coach Dialogue sequence about managing workload, burnout, or long debugging sessions.
+Avoid forced placement:
+❌ “Before we configure this Azure firewall rule, you should do 20 push-ups.”
+❌ “In this section on Power BI visuals, remember: lifting weights three times a week is important.”
+Instead:
+Integrate workout tips as a natural extension of:
+Focus management.
+Ergonomic best practices.
+Long-haul knowledge work realities (e.g., long coding or configuration sessions).
+10.5 Documentation & QA
+Course design artifacts (e.g., outlines, storyboards) must:
+Clearly identify:
+Which item includes the workout tip.
+What the tip is and how it supports learner well-being and sustained focus.
+During QA:
+Reviewers confirm:
+The workout tip is present and naturally integrated.
+It is safe, non-medical, and appropriate in tone.
+It does not overshadow the instructional content or feel like random filler.
+11. Vendor & Author Checklist – Microsoft Level 2
+Use this checklist alongside the Level 1 checklist when designing Microsoft-partnered courses.
+Alignment & Scope
+ Course adheres to Level 1 Skill-First, Standalone & Stackable, and WWHAA principles.
+ Skill Areas, Skills, and Skill Expressions reflect realistic Microsoft ecosystem tasks.
+ No dependencies on other courses or certification prep are assumed.
+Brand & Tone
+ Tone is professional, empowering, and inclusive.
+ Microsoft tools are positioned as practical solutions without excessive marketing.
+ Terminology is accurate, and acronyms are defined.
+WWHAA Implementation (Per Module)
+ Why: Uses realistic Microsoft-relevant scenarios to establish value.
+ What: Explains key concepts and then demonstrates them using Microsoft tools.
+ How: Shows end-to-end workflows with clear reasoning for choices.
+ Apply: Provides hands-on practice in credible Microsoft scenarios.
+ Assess: Evaluates both conceptual and applied Microsoft-context understanding.
+Hands-on & Assessment
+ At least one hands-on activity per module, mapped to job-relevant tasks.
+ At least one graded assessment per course aligned to Skill Expressions.
+ AI grading and MCQs (if used) are checked for technical correctness in Microsoft contexts.
+Visuals, Brand, & Media
+ Slides follow Level 1 visual best practices and align with modern Microsoft design aesthetics.
+ Screenshots of Microsoft products are current, anonymized, and concept-focused.
+ Intros/outros and logos conform to co-branding rules.
+Accessibility & Global Considerations
+ Captions are accurate and reflect technical and product names correctly.
+ Alt text focuses on conceptual understanding of visuals and UIs.
+ Scenarios include diverse roles, contexts, and regions; they consider remote/hybrid realities.
+Workout Tip Requirement (Demonstration Feature)
+ Course includes at least one natural, safe, contextually appropriate workout tip.
+ Tip is embedded in a relevant discussion (focus, productivity, sustainable learning) and not awkwardly forced.
+ Tip is documented in the design materials and validated during QA.
+Review & Sign-off
+ Internal learning design review completed (Level 1 and Level 2 conformance).
+ Microsoft SME or designated reviewer has approved technical accuracy and product alignment.
+ All review feedback has been addressed and resolved.
