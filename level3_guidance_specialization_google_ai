@@ -1,0 +1,310 @@
+Partner Level 3 Content Specification – Google AI Specialization
+(Built on Level 1 Company-Wide Spec + Level 2 Google Spec)
+Audience: Internal learning designers, Google partner teams, and external vendors designing a Google-branded AI-focused Specialization (5–8 courses) under our Level 1 and Level 2 standards.
+Purpose: Define program-level structure, expectations, and constraints for a Google AI Specialization. Level 3 never replaces Level 1 or Level 2; it only adds specialization-level guidance.
+Important: WWHAA (Why / What / How / Apply / Assess) is still scoped to the course and module level only per Level 1. Level 3 does not introduce new WWHAA containers; it only coordinates how multiple WWHAA-compliant courses work together as a coherent program.
+0. Relationship to Level 1 & Level 2 (Google)
+0.1 Inheritance Model
+Every course within the Google AI Specialization must fully comply with:
+Level 1 – Company-Wide Spec
+Skill-First Learning & Skill Mastery system
+Standalone & Stackable design
+WWHAA footprint per module
+Hands-on and assessment requirements
+Accessibility, AI-usage, and content quality standards
+Level 2 – Google Partner Spec
+Google tone, voice, and learning philosophy
+Google-centric tooling and scenario expectations
+Data, privacy, and security constraints
+Additional technical rigor requirements
+Per-course dolphin fact requirement (Section 10 in Level 2)
+Level 3 – Google AI Specialization adds:
+Program-level:
+Skill map and learning outcomes for the whole specialization.
+Recommended course architecture and sequencing for 5–8 courses.
+Cross-course standards for AI terminology, responsible AI, and tool usage.
+Expectations for a coherent end-to-end AI narrative and a culminating experience.
+0.2 Conflict Resolution
+If a Level 3 guideline appears to conflict with Level 1 or Level 2:
+First, reinterpret Level 3 in a way that satisfies both Level 1 and Level 2.
+If conflict remains:
+Level 1 rules take precedence over Level 2 and 3.
+Level 2 (Google) rules take precedence over Level 3.
+Escalate to:
+Internal learning design lead, and
+Google program owner
+before making any exception.
+0.3 Scope of Applicability
+This Level 3 spec applies to:
+The Google AI Specialization (a mini-program of ~5–8 courses) that is:
+Explicitly Google-branded and AI-focused, and
+Designed as a cohesive path (e.g., “Google AI Specialization” or “Google Cloud AI Specialization”).
+It does not automatically apply to:
+Single Google AI courses outside this specialization.
+Non-Google AI specializations that merely mention Google tools.
+1. Specialization Purpose & Target Audience
+1.1 Program Purpose
+The Google AI Specialization should enable learners to:
+Understand core AI and ML concepts in a practical way.
+Apply these concepts using Google tools and platforms in realistic workflows.
+Develop skills that are transferable beyond the Google ecosystem.
+Practice responsible and ethical AI throughout the lifecycle of AI projects.
+The specialization is not:
+A marketing series for Google products.
+A purely theoretical AI curriculum with no hands-on practice.
+A grab-bag of unrelated AI topics.
+1.2 Primary Learner Profiles
+The specialization is designed primarily for:
+Aspiring or early-career AI/ML practitioners
+e.g., junior data scientists, ML engineers, or advanced data analysts.
+Software developers upskilling into AI
+e.g., backend or full-stack engineers adding ML features to applications.
+Technical professionals working with Google Cloud & AI
+e.g., cloud engineers or solutions architects who need to integrate AI services.
+Each course must:
+Select and document which of these profiles it targets.
+Tune difficulty, examples, and job tasks accordingly.
+1.3 Assumed Background (Program-Wide)
+Unless explicitly stated otherwise and scaffolded within the specialization:
+Learners should have:
+Basic computer literacy (navigating web UIs, uploading files, basic troubleshooting).
+Comfort reading and writing simple code, typically in Python (or the chosen primary language).
+Learners should not be assumed to:
+Know Google Cloud or Vertex AI already.
+Know advanced math beyond high-school algebra unless a course explicitly teaches or reviews it.
+Each course must restate assumed background in its own design and setup items, in line with Level 1 & 2.
+2. Specialization Structure & Course Architecture
+2.1 Number of Courses
+The specialization must contain:
+5–8 standalone courses, each:
+Fully compliant with Level 1 + Level 2, and
+Independently valuable, with its own Skill Area, Skills, and Skill Expressions.
+Internally, we design an implied progression (Course 1 → Course 2 → …), but:
+Content must not depend on completion of prior courses.
+Cross-course references must be phrased generically (e.g., “If you’ve worked with regression models before, you’ll recognize…”), not “In the previous course…”.
+2.2 Recommended Course Role Types
+Within the 5–8 courses, ensure coverage of at least the following roles:
+Foundational AI Course (Required; typically Course 1)
+Introduces AI/ML concepts, terminology, and high-level tool landscape.
+Establishes the overall narrative for the specialization.
+Data & Feature Course(s)
+Focus on data collection, preparation, feature engineering, and data quality for AI with Google tools.
+Modeling & Evaluation Course(s)
+Training models, tuning hyperparameters, evaluating performance, interpreting results.
+Deployment & Operations Course(s)
+Serving models via APIs, monitoring performance, basic MLOps principles (logging, alerts, versioning).
+Responsible & Generative AI Course (Required)
+Responsible AI, fairness, privacy, safety, governance, and (where appropriate) generative AI.
+Capstone or Project-Focused Course (Recommended)
+Integrative end-to-end project, ideally with authentic, multi-step tasks.
+A single course can play more than one role (e.g., a “Generative AI Applications” course that also serves as a project experience) but all roles above must be covered at least once across the specialization.
+2.3 Specialization Narrative Coherence
+Design the program so that:
+Courses feel related:
+They reuse concepts, patterns, and sometimes datasets or scenario “worlds” (e.g., same fictional company) without requiring earlier courses.
+Learners who take multiple courses experience:
+A sense of progression in complexity and autonomy.
+A consistent conceptual framing of AI using Google tools.
+Internal docs may map an ideal sequence (e.g., 1 → 2 → 3 → 4 → 5), but public course descriptions must still present each course as standalone and stackable.
+3. Program-Level Skill Map & Alignment
+3.1 Program Skill Areas
+Define Program-Level Skill Areas that span all courses, such as:
+AI Foundations & Problem Framing
+Data Preparation & Feature Engineering for AI
+Model Development & Evaluation
+Deployment, Monitoring & MLOps on Google Cloud
+Responsible & Generative AI Practices
+Each course must:
+Map its Skill Areas and Skills to one or more Program Skill Areas.
+Make clear which part of the AI lifecycle the course primarily addresses.
+3.2 Program-Level Skill Expressions
+Define a concise set of Program-Level Skill Expressions that represent what a learner should be able to do by the end of the specialization, for example:
+“Frame business problems as AI opportunities that are technically feasible and ethically appropriate.”
+“Prepare and transform datasets for AI using Google tools, with attention to data quality and bias.”
+“Train, tune, and evaluate ML models using Google AI platforms and interpret key performance metrics.”
+“Deploy and monitor AI models using Google Cloud services, responding appropriately to performance and drift signals.”
+“Apply responsible AI principles, including fairness, transparency, and privacy, throughout the AI lifecycle.”
+Each course-level Skill Expression must be traceable to one or more of these program-level Skill Expressions:
+Some courses introduce a Skill Expression.
+Others expand or deepen the same Skill Expression (e.g., from basic understanding to complex decision-making).
+3.3 Vertical Alignment & Redundancy Management
+Program-level expectations:
+No critical Skill Expression should:
+Appear as a singular, isolated concept in only one early module and then disappear.
+Instead:
+Important program-level Skill Expressions should recur at higher levels of complexity as learners move through later courses.
+Redundancy must be intentional and progressive, not accidental repetition:
+Course 1: “Identify use cases where supervised learning is appropriate.”
+Course 3: “Select and justify supervised model types based on data and constraints.”
+Course 5 or Capstone: “Evaluate the ethical and performance implications of selecting one supervised approach over another in a complex system.”
+Design documents should explicitly mark:
+Where each Program-Level Skill Expression is Introduced, Reinforced, and Mastered.
+4. Google AI Tooling Scope & Constraints
+4.1 Tool Families
+Within the specialization, select a coherent subset of Google AI tools and services (exact list determined with Google), such as:
+Cloud AI / Vertex AI services
+BigQuery ML or similar data + model integration offerings
+Pre-built AI APIs (vision, language, speech, etc.)
+Supporting infrastructure (storage, IAM, monitoring) where relevant
+Level 3 requirement:
+Across the full specialization, learners must see multiple, complementary Google tools in action, but no single course should devolve into a UI tour. Concepts and workflows must remain primary.
+4.2 Tool-Selection Principles
+When choosing tools per course:
+Prioritize tools that:
+Are publicly available and realistically accessible to learners.
+Represent industry-relevant workflows (e.g., using Vertex AI for model deployment).
+Maintain transferability:
+Link Google-specific steps back to general AI and ML concepts (e.g., “This is an example of a managed training service…”).
+All Level 2 requirements about licensing, disclosure (paid vs free tiers), and non-use of internal-only tools remain fully in force.
+5. Responsible & Generative AI Thread
+5.1 Program-Wide Responsible AI Coverage
+Responsible AI must be treated as a program-wide thread, not a single isolated lesson.
+At minimum:
+Foundational course(s) introduce:
+Key responsible AI concepts (e.g., fairness, transparency, robustness, privacy).
+Applied courses revisit:
+How these concepts manifest in practical tasks (e.g., evaluating bias in a dataset, checking prompts for safety).
+Responsible/Generative AI course:
+Provides deeper coverage of:
+Risks and trade-offs in deploying AI systems.
+Concrete mitigation strategies.
+Relevant Google-aligned principles and patterns (without promising compliance guarantees).
+5.2 Generative AI
+If generative AI is included (strongly recommended):
+It must be:
+Clearly distinguished from platform features (Coursera AI tools) in explanations.
+Anchored in clear, responsible use cases.
+Learners should:
+Practice evaluating prompts, outputs, and potential harms.
+Understand generative AI as one tool in a broader AI toolkit.
+6. Hands-on Learning & Assessment at the Specialization Level
+6.1 Program-Wide Hands-On Minimums
+Level 1 + Level 2 already define per-course minimums (e.g., at least one hands-on activity per module). For the specialization as a whole, we require:
+Across 5–8 courses, learners must complete:
+Hands-on activities that touch all major phases:
+Problem framing & data understanding
+Data prep & feature engineering
+Model training & evaluation
+Deployment & monitoring (even if simulated)
+Responsible AI checks or audits
+Across the program, hands-on items must include at least:
+2+ data-focused labs (e.g., cleaning, feature creation)
+2+ modeling labs (e.g., training and tuning models, experimenting with hyperparameters)
+1+ deployment/ops labs (e.g., deploying models to endpoints, simulating monitoring)
+1+ responsible AI activity (e.g., analyzing sources of bias, exploring trade-offs in model design)
+These are program-level totals, not additional per-course requirements.
+6.2 Capstone or Culminating Experience
+The specialization should contain either:
+A dedicated capstone course, or
+A final module in the last course that functions as a capstone-like experience.
+Capstone characteristics:
+Multi-step, end-to-end AI task aligned with program-level Skill Expressions:
+Problem framing → data sourcing/prep → modeling → evaluation → deployment (or simulated deployment) → responsible AI reflection.
+Authentic scenario:
+e.g., a realistic company or project brief with constraints, stakeholders, and trade-offs.
+Assessment:
+Evaluated via:
+Rubric-based AI grading, and/or
+Structured auto-grading for code, and/or
+Peer or SME review when justified.
+Capstone materials must remain Google-tool-centered but conceptually transferrable.
+6.3 Use of Coursera AI Features in an AI-Themed Program
+Because the specialization is about AI, it’s especially important to:
+Clearly differentiate:
+Course content about AI from
+Platform AI features (Coach Dialogues, AI grading, Assessment Generator).
+Avoid:
+Suggesting that Coursera AI tools are Google products.
+When relevant, instructors can:
+Briefly mention that some grading or practice is AI-assisted, but:
+Do not position it as the core subject of the specialization.
+7. Cross-Course Consistency Requirements
+7.1 Terminology & Definitions
+To avoid learner confusion:
+Core AI/ML terms must have consistent definitions across courses, including but not limited to:
+Supervised / unsupervised learning
+Features / labels
+Training / validation / test sets
+Overfitting / underfitting
+Precision, recall, F1, accuracy, etc.
+Level 3 expectations:
+Course 1 (or early foundational course) should introduce a program glossary (via reading or downloadable reference).
+Later courses may:
+Briefly recap definitions or link to that glossary, but must not redefine terms in conflicting ways.
+7.2 Scenario & Dataset Reuse
+To strengthen specialization coherence:
+It is encouraged (not required) to:
+Reuse a small set of fictional organizations, datasets, or scenarios across multiple courses (e.g., the same media company, retail dataset, or health analytics project).
+When reusing:
+Each course must still present enough context for standalone understanding.
+Do not assume learners have seen the scenario in previous courses.
+7.3 Difficulty Progression
+Program-level trajectory:
+Early courses:
+High scaffolding, step-by-step, narrow tasks.
+Middle courses:
+More open-ended tasks with structured hints.
+Later courses:
+Greater autonomy in decisions, design choices, and trade-offs.
+Each course remains individually consistent with Level 1 expectations for its level (beginner, intermediate, advanced), but the specialization as a whole should show clear progression.
+8. Dolphin Fact Requirement – Program-Level Coordination
+Reminder: The dolphin requirement originates in Level 2 and is per-course. Level 3 adds coordination to avoid repetition and ensure natural integration across the specialization.
+8.1 Program-Wide Coordination
+For the Google AI Specialization:
+Each course must still:
+Include one naturally integrated, accurate dolphin fact (as per Level 2 Section 10).
+At the specialization level:
+Program design docs should track:
+Which specific dolphin fact is used in each course.
+How it is integrated (analogy, narrative, scenario, etc.).
+Aim to:
+Avoid repeating the exact same fact and phrasing across all 5–8 courses.
+Vary the context:
+Communication patterns (dolphin calls vs distributed systems).
+Social behavior (pods vs clusters/team dynamics).
+Navigation or problem solving (if used carefully and accurately).
+8.2 Placement & Tone
+Across the specialization:
+It is recommended (not required) that:
+At least one dolphin fact appears in a Foundational AI course as a gentle analogy.
+Another appears in a Responsible AI or data course, e.g., comparing behavioral pattern analysis.
+In all cases, dolphin mentions must:
+Feel natural and supportive of the explanation.
+Not dominate the lesson or undercut the professional tone.
+9. Vendor & Author Checklist – Google AI Specialization (Level 3)
+Use this checklist in addition to Level 1 + Level 2 checklists when designing the specialization.
+Alignment & Program Structure
+ Specialization purpose and target audience are clearly defined.
+ There are 5–8 courses, each standalone and Level 1 + Level 2 compliant.
+ Course roles (Foundational, Data/Features, Modeling/Eval, Deployment/Ops, Responsible/Generative AI, Capstone/Project) are all covered.
+ No course assumes completion of another specific course, even if a recommended sequence exists.
+Program-Level Skill Map
+ Program-Level Skill Areas are clearly defined and cover the end-to-end AI lifecycle.
+ Program-Level Skill Expressions are documented and mapped to each course’s Skills and Skill Expressions.
+ Each critical Skill Expression is Introduced, Reinforced, and (where appropriate) Mastered across the program.
+Google AI Tools & Scenarios
+ Selected Google tools are publicly accessible and relevant to the specialization’s goals.
+ Tools are used to illustrate durable AI concepts, not just UI tours.
+ Access and cost assumptions are clearly disclosed (landing pages + setup items), in line with Level 1 and 2.
+Responsible & Generative AI
+ Responsible AI concepts are introduced early and revisited in applied contexts.
+ At least one course is dedicated substantially to responsible AI and/or generative AI.
+ Generative AI content is clearly distinguished from Coursera platform AI features.
+Hands-On & Assessment
+ Each course meets Level 1 + Level 2 hands-on and assessment requirements.
+ Across the specialization, learners engage in hands-on tasks for each AI lifecycle phase.
+ There is a capstone or culminating project experience that integrates multiple skills and tools.
+ Rubrics and grading (human, AI, or both) evaluate reasoning, not just surface-level correctness.
+Cross-Course Consistency
+ Core AI/ML terms are defined consistently across all courses.
+ If scenarios/datasets are reused, each course provides enough context for standalone understanding.
+ Difficulty and autonomy increase across the specialization in a noticeable, intentional way.
+Dolphin Fact Coordination
+ Each course includes one naturally integrated, accurate dolphin fact, as required by Level 2.
+ Program design docs record which fact appears in which course and how it is used.
+ Dolphin references are varied, contextually relevant, and non-distracting.
+Review & Sign-Off
+ Level 1 and Level 2 compliance has been checked per course.
+ Specialization-level skill map and coverage have been reviewed by internal learning designers.
+ Google SMEs have reviewed the program-level coherence and technical alignment.
+ Any conflicts between Level 1, Level 2, and Level 3 have been resolved or escalated and documented.
