@@ -561,6 +561,7 @@ All “Why” vignettes must comply with the specifications below in addition to
 A “Why” vignette is a short, instructor- or SME-led video with the following characteristics:
 Duration: approximately 1–3 minutes.
 Script length: approximately 200–450 words.
+Character target: approximately 1,200–2,700 characters (including spaces), assuming ~6 characters per word.
 Focus: motivation and relevance, not detailed instruction.
 Connection: directly linked to the lesson’s or module’s learning objective(s).
 “What” readings and “How” screencasts explain what something is and how to do it. “Why” vignettes explain why it’s worth learning and using.
@@ -575,9 +576,11 @@ Minimum: 1 minute
 Maximum: 3 minutes
 Script length:
 Recommended: ~200–450 words total.
+Character target: ~1,200–2,700 characters (including spaces) for the full vignette script.
 This typically breaks down into:
 Hook: 1–2 sentences.
 Body: ~250–400 words.
+Character target for body section: ~1,500–2,400 characters (including spaces).
 Wrap-up: 1–2 short lines.
 If a script exceeds 450 words:
 Authors should tighten language and remove repetition.
@@ -797,9 +800,13 @@ and must follow the requirements associated with that type.
 Typical script length (spoken narration only):
 Minimum: ~300 words
 Maximum: ~900 words
+Character range for narration (including spaces): ~1,800–5,400 characters.
 As a guideline:
 Demonstration tutorials usually fall around 300–600 words.
 Follow-along tutorials usually fall around 400–900 words, due to additional instructions and pause cues.
+Character guidance by type:
+Demonstration tutorials: ~1,800–3,600 characters.
+Follow-along tutorials: ~2,400–5,400 characters.
 3.2 Video Duration
 Demonstration: ~3–5 minutes.
 Follow-along: ~5–7 minutes.
@@ -1157,6 +1164,7 @@ All “What” readings must meet the following word count constraints:
 Required length:
 Minimum: 800 words
 Maximum: 1,500 words
+Character range (including spaces): ~4,800–9,000 characters, using ~6 characters per word as the planning baseline.
 The word count applies to the main reading content only (from title through Conclusion).
 The KEY STATS AND SOURCES FOR REVIEWER’S USE section (see Section 7) is not included in this word count.
 If a single reading would exceed 1,500 words, authors must:
